@@ -1,0 +1,29 @@
+:root {
+  --color-brand-heaven: #1fd6ff;
+  --color-base-white: #ffffff;
+  --color-base-black: #000000;
+  --color-base-transparent: rgba(0, 0, 0, 0);
+  --color-base-gray-100: #f7f7f7;
+  --color-base-gray-200: #c5c5c5;
+  --color-base-gray-300: #919191;
+  --color-base-jasper-100: #ffab89;
+  --color-base-jasper-200: #ff6128;
+  --color-base-jasper-300: #aa3100;
+  --color-base-grass-100: #b1efa7;
+  --color-base-grass-200: #62df4f;
+  --color-base-grass-300: #37bd22;
+  --color-base-bay-100: #baeff3;
+  --color-base-bay-200: #53d7e1;
+  --color-base-bay-300: #22b8c3;
+  --color-base-sand-100: #eee19a;
+  --color-base-sand-200: #ddc53e;
+  --color-base-sand-300: #bba420;
+  --font-size-1: 0.707rem;
+  --font-size-2: 1rem;
+  --font-size-3: 1.414rem;
+  --font-size-4: 1.999rem;
+  --font-size-5: 2.827rem;
+  --font-size-6: 3.998rem;
+  --font-size-7: 5.653rem;
+  --font-size-base: 1rem;
+}

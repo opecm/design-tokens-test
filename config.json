@@ -1,0 +1,28 @@
+{
+  "source": ["tokens/**/*.json"],
+  "platforms": {
+    "scss": {
+      "transformGroup": "custom/scss",
+      "basePxFontSize": "16",
+      "buildPath": "dist/scss/",
+      "files": [
+        {
+          "format": "scss/variables",
+          "destination": "_variables.scss",
+          "options": { "showFileHeader": false }
+        }
+      ]
+    },
+    "css": {
+      "transformGroup": "css",
+      "buildPath": "dist/css/",
+      "files": [
+        {
+          "format": "css/variables",
+          "destination": "variables.css",
+          "options": { "showFileHeader": false }
+        }
+      ]
+    }
+  }
+}

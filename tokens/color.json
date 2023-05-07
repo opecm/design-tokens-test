@@ -1,0 +1,75 @@
+{
+  "color": {
+    "brand": {
+      "heaven": {
+        "value": "#1FD6FF"
+      }
+    },
+    "base": {
+      "white": {
+        "value": "#ffffff"
+      },
+      "black": {
+        "value": "#000000"
+      },
+      "transparent": {
+        "value": "transparent"
+      },
+      "gray": {
+        "100": {
+          "value": "#F7F7F7"
+        },
+        "200": {
+          "value": "#C5C5C5 "
+        },
+        "300": {
+          "value": "#919191"
+        }
+      },
+      "jasper": {
+        "100": {
+          "value": "#FFAB89"
+        },
+        "200": {
+          "value": "#FF6128"
+        },
+        "300": {
+          "value": "#AA3100"
+        }
+      },
+      "grass": {
+        "100": {
+          "value": "#B1EFA7"
+        },
+        "200": {
+          "value": "#62DF4F"
+        },
+        "300": {
+          "value": "#37BD22"
+        }
+      },
+      "bay": {
+        "100": {
+          "value": "#BAEFF3"
+        },
+        "200": {
+          "value": "#53D7E1"
+        },
+        "300": {
+          "value": "#22B8C3"
+        }
+      },
+      "sand": {
+        "100": {
+          "value": "#EEE19A"
+        },
+        "200": {
+          "value": "#DDC53E"
+        },
+        "300": {
+          "value": "#BBA420"
+        }
+      }
+    }
+  }
+}

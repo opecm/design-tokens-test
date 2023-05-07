@@ -1,0 +1,22 @@
+{
+  "name": "token-test",
+  "version": "1.0.0",
+  "description": "in progress",
+  "main": "build.js",
+  "scripts": {
+    "tokens:build": "node ./build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/opecm/design-tokens-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/opecm/design-tokens-test/issues"
+  },
+  "homepage": "https://github.com/opecm/design-tokens-test#readme",
+  "devDependencies": {
+    "style-dictionary": "^3.1.1"
+  }
+}
