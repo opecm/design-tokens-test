@@ -18,6 +18,25 @@
   --color-base-sand-100: #eee19a;
   --color-base-sand-200: #ddc53e;
   --color-base-sand-300: #bba420;
+  --color-color-brand-heaven: #c73f1a;
+  --color-color-base-white: #ffffff;
+  --color-color-base-black: #000000;
+  --color-color-base-transparent: rgba(0, 0, 0, 0);
+  --color-color-base-gray-100: #f7f7f7;
+  --color-color-base-gray-200: #c5c5c5;
+  --color-color-base-gray-300: #919191;
+  --color-color-base-jasper-100: #ffab89;
+  --color-color-base-jasper-200: #ff6128;
+  --color-color-base-jasper-300: #aa3100;
+  --color-color-base-grass-100: #b1efa7;
+  --color-color-base-grass-200: #62df4f;
+  --color-color-base-grass-300: #37bd22;
+  --color-color-base-bay-100: #baeff3;
+  --color-color-base-bay-200: #53d7e1;
+  --color-color-base-bay-300: #22b8c3;
+  --color-color-base-sand-100: #eee19a;
+  --color-color-base-sand-200: #ddc53e;
+  --color-color-base-sand-300: #bba420;
   --font-size-1: 0.707rem;
   --font-size-2: 1rem;
   --font-size-3: 1.414rem;
@@ -26,4 +45,12 @@
   --font-size-6: 3.998rem;
   --font-size-7: 5.653rem;
   --font-size-base: 1rem;
+  --font-font-size-1: 0.707rem;
+  --font-font-size-2: 1rem;
+  --font-font-size-3: 1.414rem;
+  --font-font-size-4: 1.999rem;
+  --font-font-size-5: 2.827rem;
+  --font-font-size-6: 3.998rem;
+  --font-font-size-7: 5.653rem;
+  --font-font-size-base: 1rem;
 }
