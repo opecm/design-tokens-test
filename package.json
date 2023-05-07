@@ -1,12 +1,13 @@
 {
   "name": "@0pecm/token-test",
-  "version": "1.1.0",
+  "version": "1.0.3",
   "description": "in progress",
   "main": "build.js",
   "scripts": {
     "tokens:build": "node ./build.js",
-    "push-minor": "npm version minor",
-    "push-major": "npm version major"
+    "npm-patch": "npm version patch",
+    "npm-minor": "npm version minor",
+    "npm-major": "npm version major"
   },
   "repository": {
     "type": "git",
