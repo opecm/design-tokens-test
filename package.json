@@ -4,7 +4,9 @@
   "description": "in progress",
   "main": "build.js",
   "scripts": {
-    "tokens:build": "node ./build.js"
+    "tokens:build": "node ./build.js",
+    "push-minor": "npm version minor",
+    "push-major": "npm version major"
   },
   "repository": {
     "type": "git",
