@@ -9,7 +9,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: Setup Node.js environment
         uses: actions/setup-node@v2.4.0
-      - run: npm tokens:build
+      - run: npm run tokens:build
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: 'chore: update css tokens'
