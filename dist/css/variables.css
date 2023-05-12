@@ -6,6 +6,7 @@
   --color-base-gray-100: #f7f7f7;
   --color-base-gray-200: #c5c5c5;
   --color-base-gray-300: #919191;
+  --color-base-jasper-50: #ffd8d8;
   --color-base-jasper-100: #ffab89;
   --color-base-jasper-200: #ff6128;
   --color-base-jasper-300: #aa3100;
@@ -31,14 +32,17 @@
   --font-font-size-l: 18px;
   --font-font-size-xl: 24px;
   --font-font-size-xxl: 52px;
+  --main-color-button-standard-color: #ffd8d8;
+  --main-color-button-cta-color: #ff6128;
   --main-color-brand-primary: #ff6128;
-  --main-color-brand-secondary: #ffab89;
+  --main-color-brand-secondary: #ffd8d8;
   --main-color-base-white: #ffffff;
   --main-color-base-black: #000000;
   --main-color-base-transparent: transparent;
   --main-color-base-gray-100: #F7F7F7;
   --main-color-base-gray-200: #C5C5C5 ;
   --main-color-base-gray-300: #919191;
+  --main-color-base-jasper-50: #ffd8d8;
   --main-color-base-jasper-100: #FFAB89;
   --main-color-base-jasper-200: #FF6128;
   --main-color-base-jasper-300: #AA3100;
