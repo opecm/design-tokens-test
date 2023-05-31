@@ -144,7 +144,7 @@
   --shadows-default: rgba(#000000, 0.3);
   --button-primary-background: #667eea;
   --button-primary-text: #ffffff;
-  --button-border-radius: 8;
+  --button-border-radius: 4;
   --button-border-width: 4 * 2;
   --card-border-radius: 8;
   --card-background: #f7fafc;
