@@ -11,7 +11,7 @@
       }
     },
     "borderRadius": {
-      "value": "{borderRadius.lg}",
+      "value": "{borderRadius.sm}",
       "type": "borderRadius"
     },
     "borderWidth": {
