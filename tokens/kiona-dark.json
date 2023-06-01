@@ -60,40 +60,5 @@
       "value": "{dimension.md}",
       "type": "dimension"
     }
-  },
-  "boxShadow": {
-    "default": {
-      "value": [
-        {
-          "x": "5",
-          "y": "5",
-          "spread": "3",
-          "color": "{colors.gray.200}",
-          "blur": "5",
-          "type": "dropShadow"
-        },
-        {
-          "x": "4",
-          "y": "4",
-          "spread": "6",
-          "color": "#00000033",
-          "blur": "5",
-          "type": "innerShadow"
-        }
-      ],
-      "type": "boxShadow"
-    }
-  },
-  "typography": {
-    "Body": {
-      "type": "typography",
-      "value": {
-        "fontFamily": "{fontFamilies.body}",
-        "fontWeight": "{fontWeights.bodyRegular}",
-        "lineHeight": "{lineHeights.heading}",
-        "fontSize": "{fontSizes.body}",
-        "paragraphSpacing": "{paragraphSpacing.h2}"
-      }
-    }
   }
 }

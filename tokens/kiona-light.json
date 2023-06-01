@@ -1,12 +1,40 @@
 {
   "button": {
-    "primary": {
+    "cta": {
       "background": {
-        "value": "{colors.purple.600}",
+        "value": "{colors.Primary}",
         "type": "color"
       },
       "text": {
-        "value": "{colors.white}",
+        "value": "{colors.OnPrimary}",
+        "type": "color"
+      }
+    },
+    "standard": {
+      "background": {
+        "value": "{colors.gray.700}",
+        "type": "color"
+      },
+      "text": {
+        "value": "{colors.OnPrimary}",
+        "type": "color"
+      },
+      "border": {
+        "value": {
+          "color": "{colors.gray.600}",
+          "width": "1",
+          "style": "solid"
+        },
+        "type": "border"
+      }
+    },
+    "text": {
+      "background": {
+        "value": "{colors.gray.700}",
+        "type": "color"
+      },
+      "text": {
+        "value": "{colors.Primary}",
         "type": "color"
       }
     },
@@ -15,7 +43,7 @@
       "type": "borderRadius"
     },
     "borderWidth": {
-      "value": "{dimension.sm}",
+      "value": "{dimension.scale}",
       "type": "borderWidth"
     }
   },
@@ -25,47 +53,12 @@
       "type": "borderRadius"
     },
     "background": {
-      "value": "{colors.gray.100}",
+      "value": "{colors.Background}",
       "type": "color"
     },
     "padding": {
       "value": "{dimension.md}",
       "type": "dimension"
-    }
-  },
-  "boxShadow": {
-    "default": {
-      "value": [
-        {
-          "x": "5",
-          "y": "5",
-          "spread": "3",
-          "color": "{colors.gray.200}",
-          "blur": "5",
-          "type": "dropShadow"
-        },
-        {
-          "x": "4",
-          "y": "4",
-          "spread": "6",
-          "color": "#00000033",
-          "blur": "5",
-          "type": "innerShadow"
-        }
-      ],
-      "type": "boxShadow"
-    }
-  },
-  "typography": {
-    "Body": {
-      "type": "typography",
-      "value": {
-        "fontFamily": "{fontFamilies.body}",
-        "fontWeight": "{fontWeights.bodyRegular}",
-        "lineHeight": "{lineHeights.heading}",
-        "fontSize": "{fontSizes.body}",
-        "paragraphSpacing": "{paragraphSpacing.h2}"
-      }
     }
   }
 }
