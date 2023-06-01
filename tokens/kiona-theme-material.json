@@ -89,7 +89,7 @@
       "type": "color"
     },
     "InverseSurface": {
-      "value": "#151515",
+      "value": "#262626",
       "type": "color"
     },
     "InverseOnSurface": {
@@ -117,7 +117,7 @@
       "type": "color"
     },
     "OnSurface": {
-      "value": "{colors.black}",
+      "value": "#262626",
       "type": "color"
     },
     "Surface": {

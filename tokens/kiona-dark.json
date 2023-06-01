@@ -1,7 +1,7 @@
 {
   "global": {
     "background": {
-      "value": "{colors.InverseSurfaceVariant}",
+      "value": "#333333",
       "type": "color"
     }
   },
@@ -63,7 +63,7 @@
       "type": "borderRadius"
     },
     "background": {
-      "value": "{colors.Surface}",
+      "value": "{colors.OnSurface}",
       "type": "color"
     },
     "padding": {
