@@ -1,13 +1,5 @@
 [
-  {
-    "id": "c17ddad371014b01fd2980c39a526b87779a2281",
-    "name": "kiona-core-dark",
-    "$figmaStyleReferences": {},
-    "selectedTokenSets": {
-      "kiona-dark": "enabled",
-      "kiona-core": "source"
-    }
-  },
+
   {
     "id": "b7261a36ac6d341afc1d906cf489f2d1ed2793f0",
     "name": "kiona-core-light",
@@ -24,8 +16,10 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "core": "source",
-      "kiona-dark": "enabled",
-      "kiona-theme-material": "enabled"
+
+      "kiona-theme-material": "enabled",
+      "kiona-dark": "enabled"
     }
   }
+
 ]

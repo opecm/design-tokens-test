@@ -16,12 +16,12 @@
         "type": "color"
       },
       "text": {
-        "value": "{Primary}",
+        "value": "{colors.Primary}",
         "type": "color"
       },
       "border": {
         "value": {
-          "color": "{Primary}",
+          "color": "{colors.Primary}",
           "width": "1",
           "style": "solid"
         },
@@ -53,7 +53,7 @@
       "type": "borderRadius"
     },
     "background": {
-      "value": "{Background}",
+      "value": "{colors.Background}",
       "type": "color"
     },
     "padding": {
