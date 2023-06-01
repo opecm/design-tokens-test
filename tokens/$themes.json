@@ -5,7 +5,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "kiona-dark": "enabled",
-      "kiona-core": "enabled"
+      "kiona-core": "source"
     }
   },
   {
@@ -14,7 +14,8 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "kiona-light": "source",
-      "kiona-core": "enabled"
+      "kiona-core": "source",
+      "core": "enabled"
     }
   }
 ]

@@ -3,7 +3,7 @@
     "button": {
       "primary": {
         "background": {
-          "value": "{colors.indigo.500}",
+          "value": "{colors.purple.600}",
           "type": "color"
         },
         "text": {
