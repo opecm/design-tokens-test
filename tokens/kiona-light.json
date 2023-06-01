@@ -1,0 +1,64 @@
+{
+  "button": {
+    "cta": {
+      "background": {
+        "value": "{colors.Primary}",
+        "type": "color"
+      },
+      "text": {
+        "value": "{colors.OnPrimary}",
+        "type": "color"
+      }
+    },
+    "standard": {
+      "background": {
+        "value": "{colors.purple.200}",
+        "type": "color"
+      },
+      "text": {
+        "value": "{colors.Primary}",
+        "type": "color"
+      },
+      "border": {
+        "value": {
+          "color": "{colors.gray.600}",
+          "width": "1",
+          "style": "solid"
+        },
+        "type": "border"
+      }
+    },
+    "text": {
+      "background": {
+        "value": "{colors.gray.700}",
+        "type": "color"
+      },
+      "text": {
+        "value": "{colors.Primary}",
+        "type": "color"
+      }
+    },
+    "borderRadius": {
+      "value": "{borderRadius.sm}",
+      "type": "borderRadius"
+    },
+    "borderWidth": {
+      "value": "{dimension.scale}",
+      "type": "borderWidth"
+    }
+  },
+  "card": {
+    "borderRadius": {
+      "value": "{borderRadius.lg}",
+      "type": "borderRadius"
+    },
+    "background": {
+      "value": "{colors.Background}",
+      "type": "color"
+    },
+    "padding": {
+      "value": "{dimension.md}",
+      "type": "dimension"
+    }
+  }
+}
