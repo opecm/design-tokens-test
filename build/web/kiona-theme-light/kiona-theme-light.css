@@ -129,14 +129,14 @@
   --kiona-colors-on-surface-variant: #000000;
   --kiona-colors-outline: #ccc;
   --kiona-colors-inverse-surface-variant: #262626;
-  --kiona-colors-inverse-surface: #151515;
+  --kiona-colors-inverse-surface: #262626;
   --kiona-colors-inverse-on-surface: #ccc;
   --kiona-colors-inverse-primary: #ccc;
   --kiona-colors-shadow: #ccc;
   --kiona-colors-surface-tint: #ccc;
   --kiona-colors-on-background: #ccc;
   --kiona-colors-background: #ededed;
-  --kiona-colors-on-surface: #000000;
+  --kiona-colors-on-surface: #262626;
   --kiona-colors-surface: #fff;
   --kiona-opacity-low: 0.1;
   --kiona-opacity-md: 0.5;

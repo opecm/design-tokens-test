@@ -129,14 +129,14 @@
   --kiona-colors-on-surface-variant: #000000;
   --kiona-colors-outline: #ccc;
   --kiona-colors-inverse-surface-variant: #262626;
-  --kiona-colors-inverse-surface: #151515;
+  --kiona-colors-inverse-surface: #262626;
   --kiona-colors-inverse-on-surface: #ccc;
   --kiona-colors-inverse-primary: #ccc;
   --kiona-colors-shadow: #ccc;
   --kiona-colors-surface-tint: #ccc;
   --kiona-colors-on-background: #ccc;
   --kiona-colors-background: #ededed;
-  --kiona-colors-on-surface: #000000;
+  --kiona-colors-on-surface: #262626;
   --kiona-colors-surface: #fff;
   --kiona-opacity-low: 0.1;
   --kiona-opacity-md: 0.5;
@@ -168,10 +168,10 @@
   --kiona-font-sizes-l: 18px;
   --kiona-font-sizes-xxl: 32px;
   --kiona-box-shadow-default: 5px 5px 5px 3px #edf2f7, inset 4px 4px 5px 6px #00000033;
-  --kiona-global-background: #262626;
+  --kiona-global-background: #333333;
   --kiona-button-cta-background: #7643BB;
   --kiona-button-cta-text: #ffffff;
-  --kiona-button-standard-background: #151515;
+  --kiona-button-standard-background: #262626;
   --kiona-button-standard-text: #f7fafc;
   --kiona-button-standard-hover: #59328C;
   --kiona-button-standard-border: 1px solid #666666;
@@ -180,6 +180,6 @@
   --kiona-button-border-radius: 4px;
   --kiona-button-border-width: 8px;
   --kiona-card-border-radius: 8px;
-  --kiona-card-background: #fff;
+  --kiona-card-background: #262626;
   --kiona-card-padding: 16px;
 }
