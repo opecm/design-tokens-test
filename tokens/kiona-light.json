@@ -12,11 +12,11 @@
     },
     "standard": {
       "background": {
-        "value": "{colors.gray.700}",
+        "value": "{colors.purple.200}",
         "type": "color"
       },
       "text": {
-        "value": "{colors.OnPrimary}",
+        "value": "{colors.Primary}",
         "type": "color"
       },
       "border": {

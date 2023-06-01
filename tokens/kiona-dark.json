@@ -12,11 +12,11 @@
     },
     "standard": {
       "background": {
-        "value": "{colors.purple.200}",
+        "value": "{colors.gray.700}",
         "type": "color"
       },
       "text": {
-        "value": "{colors.Primary}",
+        "value": "{colors.gray.100}",
         "type": "color"
       },
       "border": {
@@ -30,11 +30,11 @@
     },
     "text": {
       "background": {
-        "value": "{colors.white}",
+        "value": "rgba(0,0,0,0)",
         "type": "color"
       },
       "text": {
-        "value": "{colors.Primary}",
+        "value": "{colors.gray.100}",
         "type": "color"
       }
     },
