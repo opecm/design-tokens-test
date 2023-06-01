@@ -17,5 +17,15 @@
       "kiona-core": "source",
       "core": "enabled"
     }
+  },
+  {
+    "id": "b6873d7a47ef42482b4ebb4e8c0e7bff8dfeda09",
+    "name": "kiona-theme-light",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "core": "source",
+      "kiona-dark": "enabled",
+      "kiona-theme-material": "enabled"
+    }
   }
 ]

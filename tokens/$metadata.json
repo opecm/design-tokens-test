@@ -2,9 +2,10 @@
   "tokenSetOrder": [
     "core",
     "kiona-light",
-    "kiona-dark",
     "fortum-light",
-    "wip",
-    "kiona-core"
+    "kiona-core",
+    "kiona-theme-material",
+    "kiona-dark",
+    "wip"
   ]
 }

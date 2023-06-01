@@ -1,12 +1,40 @@
 {
   "button": {
-    "primary": {
+    "cta": {
       "background": {
-        "value": "{colors.blue.900}",
+        "value": "{Primary}",
         "type": "color"
       },
       "text": {
+        "value": "{OnPrimary}",
+        "type": "color"
+      }
+    },
+    "standard": {
+      "background": {
+        "value": "{colors.purple.200}",
+        "type": "color"
+      },
+      "text": {
+        "value": "{Primary}",
+        "type": "color"
+      },
+      "border": {
+        "value": {
+          "color": "{Primary}",
+          "width": "1",
+          "style": "solid"
+        },
+        "type": "border"
+      }
+    },
+    "text": {
+      "background": {
         "value": "{colors.white}",
+        "type": "color"
+      },
+      "text": {
+        "value": "{Primary}",
         "type": "color"
       }
     },
@@ -25,7 +53,7 @@
       "type": "borderRadius"
     },
     "background": {
-      "value": "{colors.black}",
+      "value": "{Background}",
       "type": "color"
     },
     "padding": {
