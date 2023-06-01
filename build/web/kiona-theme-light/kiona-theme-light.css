@@ -22,9 +22,9 @@
   --kiona-colors-gray-300: #e2e8f0;
   --kiona-colors-gray-400: #cbd5e0;
   --kiona-colors-gray-500: #a0aec0;
-  --kiona-colors-gray-600: #718096;
+  --kiona-colors-gray-600: #666666;
   --kiona-colors-gray-700: #4a5568;
-  --kiona-colors-gray-800: #2d3748;
+  --kiona-colors-gray-800: #262626;
   --kiona-colors-gray-900: #1a202c;
   --kiona-colors-red-100: #fff5f5;
   --kiona-colors-red-200: #fed7d7;
@@ -132,7 +132,7 @@
   --kiona-colors-shadow: #ccc;
   --kiona-colors-surface-tint: #ccc;
   --kiona-colors-on-background: #ccc;
-  --kiona-colors-background: #2d3748;
+  --kiona-colors-background: #262626;
   --kiona-colors-on-surface: #ccc;
   --kiona-colors-surface: #ccc;
   --kiona-opacity-low: 0.1;
@@ -171,6 +171,6 @@
   --kiona-button-border-radius: 4px;
   --kiona-button-border-width: 2px;
   --kiona-card-border-radius: 8px;
-  --kiona-card-background: #2d3748;
+  --kiona-card-background: #262626;
   --kiona-card-padding: 16px;
 }
