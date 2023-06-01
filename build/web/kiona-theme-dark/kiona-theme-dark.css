@@ -90,11 +90,11 @@
   --kiona-colors-indigo-800: #434190;
   --kiona-colors-indigo-900: #3c366b;
   --kiona-colors-purple-100: #faf5ff;
-  --kiona-colors-purple-200: #e9d8fd;
+  --kiona-colors-purple-200: #f3eaff;
   --kiona-colors-purple-300: #d6bcfa;
   --kiona-colors-purple-400: #b794f4;
-  --kiona-colors-purple-500: #9f7aea;
-  --kiona-colors-purple-600: #805ad5;
+  --kiona-colors-purple-500: #7643BB;
+  --kiona-colors-purple-600: #59328C;
   --kiona-colors-purple-700: #6b46c1;
   --kiona-colors-purple-800: #553c9a;
   --kiona-colors-purple-900: #44337a;
@@ -107,7 +107,7 @@
   --kiona-colors-pink-700: #b83280;
   --kiona-colors-pink-800: #97266d;
   --kiona-colors-pink-900: #702459;
-  --kiona-colors-primary: #9f7aea;
+  --kiona-colors-primary: #7643BB;
   --kiona-colors-on-primary: #ffffff;
   --kiona-colors-primary-container: #d6bcfa;
   --kiona-colors-on-primary-container: #553c9a;
@@ -161,11 +161,11 @@
   --kiona-font-sizes-sm: 13.6px;
   --kiona-font-sizes-xs: 10.4px;
   --kiona-box-shadow-default: 5px 5px 5px 3px #edf2f7, inset 4px 4px 5px 6px #00000033;
-  --kiona-button-cta-background: #9f7aea;
+  --kiona-button-cta-background: #7643BB;
   --kiona-button-cta-text: #ffffff;
   --kiona-button-standard-background: #4a5568;
   --kiona-button-standard-text: #f7fafc;
-  --kiona-button-standard-border: 1px solid #9f7aea;
+  --kiona-button-standard-border: 1px solid #7643BB;
   --kiona-button-text-background: rgba(0,0,0,0);
   --kiona-button-text-text: #f7fafc;
   --kiona-button-border-radius: 4px;
