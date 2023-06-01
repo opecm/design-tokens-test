@@ -21,7 +21,7 @@
       },
       "border": {
         "value": {
-          "color": "{colors.gray.600}",
+          "color": "{colors.purple.500}",
           "width": "1",
           "style": "solid"
         },
