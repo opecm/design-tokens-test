@@ -1,0 +1,124 @@
+{
+  "colors": {
+    "Primary": {
+      "value": "{colors.red.500}",
+      "type": "color"
+    },
+    "Primary700": {
+      "value": "{colors.red.700}",
+      "type": "color"
+    },
+    "Primary300": {
+      "value": "{colors.red.300}",
+      "type": "color"
+    },
+    "OnPrimary": {
+      "value": "{colors.white}",
+      "type": "color"
+    },
+    "PrimaryContainer": {
+      "value": "{colors.red.400}",
+      "type": "color"
+    },
+    "OnPrimaryContainer": {
+      "value": "{colors.white}",
+      "type": "color"
+    },
+    "Secondary": {
+      "value": "{colors.indigo.500}",
+      "type": "color"
+    },
+    "OnSecondary": {
+      "value": "{colors.white}",
+      "type": "color"
+    },
+    "SecondaryContainer": {
+      "value": "{colors.blue.300}",
+      "type": "color"
+    },
+    "OnSecondaryContainer": {
+      "value": "{colors.blue.700}",
+      "type": "color"
+    },
+    "Tertiary": {
+      "value": "#ccc",
+      "type": "color"
+    },
+    "OnTertiary": {
+      "value": "#ccc",
+      "type": "color"
+    },
+    "TertiaryContainer": {
+      "value": "#ccc",
+      "type": "color"
+    },
+    "OnTertiaryContainer": {
+      "value": "#ccc",
+      "type": "color"
+    },
+    "Error": {
+      "value": "{colors.red.700}",
+      "type": "color"
+    },
+    "OnError": {
+      "value": "{colors.white}",
+      "type": "color"
+    },
+    "ErrorContainer": {
+      "value": "{colors.red.300}",
+      "type": "color"
+    },
+    "OnErrorContainer": {
+      "value": "{colors.red.700}",
+      "type": "color"
+    },
+    "SurfaceVariant": {
+      "value": "{colors.gray.400}",
+      "type": "color"
+    },
+    "OnSurfaceVariant": {
+      "value": "{colors.black}",
+      "type": "color"
+    },
+    "Outline": {
+      "value": "#ccc",
+      "type": "color"
+    },
+    "InverseSurface": {
+      "value": "#ccc",
+      "type": "color"
+    },
+    "InverseOnSurface": {
+      "value": "#ccc",
+      "type": "color"
+    },
+    "InversePrimary": {
+      "value": "#ccc",
+      "type": "color"
+    },
+    "Shadow": {
+      "value": "#ccc",
+      "type": "color"
+    },
+    "SurfaceTint": {
+      "value": "#ccc",
+      "type": "color"
+    },
+    "OnBackground": {
+      "value": "#ccc",
+      "type": "color"
+    },
+    "Background": {
+      "value": "#efefef",
+      "type": "color"
+    },
+    "OnSurface": {
+      "value": "{colors.black}",
+      "type": "color"
+    },
+    "Surface": {
+      "value": "#fff",
+      "type": "color"
+    }
+  }
+}
