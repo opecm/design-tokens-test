@@ -1,4 +1,10 @@
 {
+  "global": {
+    "background": {
+      "value": "{colors.InverseSurfaceVariant}",
+      "type": "color"
+    }
+  },
   "button": {
     "cta": {
       "background": {
@@ -12,11 +18,15 @@
     },
     "standard": {
       "background": {
-        "value": "{colors.gray.800}",
+        "value": "{colors.InverseSurface}",
         "type": "color"
       },
       "text": {
         "value": "{colors.gray.100}",
+        "type": "color"
+      },
+      "hover": {
+        "value": "{colors.Primary700}",
         "type": "color"
       },
       "border": {
@@ -53,7 +63,7 @@
       "type": "borderRadius"
     },
     "background": {
-      "value": "{colors.Background}",
+      "value": "{colors.Surface}",
       "type": "color"
     },
     "padding": {

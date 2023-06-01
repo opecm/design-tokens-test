@@ -1,4 +1,10 @@
 {
+  "global": {
+    "background": {
+      "value": "{colors.Background}",
+      "type": "color"
+    }
+  },
   "button": {
     "cta": {
       "background": {
@@ -8,20 +14,28 @@
       "text": {
         "value": "{colors.OnPrimary}",
         "type": "color"
+      },
+      "hover": {
+        "value": "{colors.Primary700}",
+        "type": "color"
       }
     },
     "standard": {
       "background": {
-        "value": "{colors.purple.200}",
+        "value": "{colors.Primary300}",
         "type": "color"
       },
       "text": {
-        "value": "{colors.Primary}",
+        "value": "{colors.OnPrimaryContainer}",
+        "type": "color"
+      },
+      "hover": {
+        "value": "{colors.PrimaryContainer}",
         "type": "color"
       },
       "border": {
         "value": {
-          "color": "{colors.purple.500}",
+          "color": "{colors.Primary}",
           "width": "1",
           "style": "solid"
         },
@@ -53,7 +67,7 @@
       "type": "borderRadius"
     },
     "background": {
-      "value": "{colors.Background}",
+      "value": "{colors.Surface}",
       "type": "color"
     },
     "padding": {

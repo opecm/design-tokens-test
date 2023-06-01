@@ -566,12 +566,24 @@
       "value": "16",
       "type": "fontSizes"
     },
+    "xs": {
+      "value": "{fontSizes.body} * 0.75",
+      "type": "fontSizes"
+    },
     "sm": {
       "value": "{fontSizes.body} * 0.85",
       "type": "fontSizes"
     },
-    "xs": {
-      "value": "{fontSizes.body} * 0.65",
+    "ml": {
+      "value": "{fontSizes.body} * 1",
+      "type": "fontSizes"
+    },
+    "xl": {
+      "value": "{fontSizes.body} * 1.5",
+      "type": "fontSizes"
+    },
+    "xxl": {
+      "value": "{fontSizes.body} * 2",
       "type": "fontSizes"
     }
   },
