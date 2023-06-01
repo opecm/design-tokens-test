@@ -132,7 +132,7 @@
   --font-sizes-body: 16;
   --font-sizes-sm: 16 * 0.85;
   --font-sizes-xs: 16 * 0.65;
-  --kiona-dark-button-primary-background: #667eea;
+  --kiona-dark-button-primary-background: #2a4365;
   --kiona-dark-button-primary-text: #ffffff;
   --kiona-dark-button-border-radius: 4;
   --kiona-dark-button-border-width: 4 * 2;
@@ -141,7 +141,7 @@
   --kiona-dark-card-padding: 4 * 2 * 2;
   --kiona-dark-box-shadow-default: [object Object],[object Object];
   --kiona-dark-typography-body: [object Object];
-  --kiona-light-button-primary-background: #667eea;
+  --kiona-light-button-primary-background: #805ad5;
   --kiona-light-button-primary-text: #ffffff;
   --kiona-light-button-border-radius: 4;
   --kiona-light-button-border-width: 4 * 2;
