@@ -6,7 +6,8 @@
     "selectedTokenSets": {
       "core": "source",
       "kiona-theme-material": "enabled",
-      "kiona-light": "enabled"
+      "kiona-light": "enabled",
+      "random-theme-material": "disabled"
     }
   },
   {
@@ -16,7 +17,8 @@
     "selectedTokenSets": {
       "core": "source",
       "kiona-theme-material": "enabled",
-      "kiona-dark": "enabled"
+      "kiona-dark": "enabled",
+      "random-theme-material": "disabled"
     }
   },
   {
@@ -26,7 +28,18 @@
     "selectedTokenSets": {
       "core": "source",
       "kiona-light": "enabled",
-      "fortum-theme-material": "source"
+      "fortum-theme-material": "source",
+      "random-theme-material": "disabled"
+    }
+  },
+  {
+    "id": "d7c701afa26a614890b56dbd1d29741b0f498f00",
+    "name": "random-theme-material",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "core": "source",
+      "kiona-light": "enabled",
+      "random-theme-material": "enabled"
     }
   }
 ]
