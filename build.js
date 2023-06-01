@@ -1,44 +1,102 @@
-const StyleDictionary = require("style-dictionary");
+const { registerTransforms } = require('@tokens-studio/sd-transforms');
+const StyleDictionary = require('style-dictionary');
+const { promises } = require('fs');
 
-function getBasePxFontSize(options) {
-  return (options && options.basePxFontSize) || 16;
+StyleDictionary.registerFormat({
+	name: 'scss/variables',
+	formatter: function(dictionary, config) {
+		const header = `/**\n` +
+			this.header.split('\n').map((line) => ` * ${line}`).join('\n') +
+			`\n */\n`;
+
+		return header +
+			dictionary.allProperties.map((prop) => `$${prop.name}: ${prop.value};`).join('\n');
+	}
+});
+
+registerTransforms(StyleDictionary, {
+	excludeParentKeys: false,
+});
+
+async function run() {
+	const $themes = JSON.parse(await promises.readFile('./tokens/$themes.json'));
+	console.log($themes)
+	const configs = $themes.map(theme => ({
+		source: Object.entries(theme.selectedTokenSets)
+			.filter(([, val]) => val !== 'disabled')
+			.map(([tokenset]) => `./tokens/${tokenset}.json`),
+		platforms: {
+			css: {
+				prefix: "kiona",
+				options: {
+					"showFileHeader": false,
+					"outputReferences": false
+ 				},
+				transforms: [
+					'ts/descriptionToComment',
+					'ts/size/px',
+					'ts/opacity',
+					'ts/size/lineheight',
+					'ts/type/fontWeight',
+					'ts/resolveMath',
+					'ts/size/css/letterspacing',
+					'ts/typography/css/shorthand',
+					'ts/border/css/shorthand',
+					'ts/shadow/css/shorthand',
+					'ts/color/css/hexrgba',
+					'ts/color/modifiers',
+					'name/cti/kebab',
+				],
+				transformGroup: 'tokens-studio',
+				buildPath: `build/web/${theme.name}/`,
+				files: [
+					{
+						destination: `${theme.name}.css`,
+						format: 'css/variables',
+					},
+				],
+			},
+				scss: {
+					prefix: "kio",
+					options: {
+						"showFileHeader": false,
+						"outputReferences": true
+					},
+					transforms: [
+						'ts/descriptionToComment',
+						'ts/size/px',
+						'ts/opacity',
+						'ts/size/lineheight',
+						'ts/type/fontWeight',
+						'ts/resolveMath',
+						'ts/size/css/letterspacing',
+						'ts/typography/css/shorthand',
+						'ts/border/css/shorthand',
+						'ts/shadow/css/shorthand',
+						'ts/color/css/hexrgba',
+						'ts/color/modifiers',
+						'name/cti/kebab',
+					],
+					transformGroup: 'tokens-studio',
+					buildPath: `build/web/${theme.name}/`,
+					files: [
+						{
+							header: `@tokens Colors
+							@presenter Color`,
+							destination: `${theme.name}.scss`,
+							format: 'scss/variables',
+						},
+					],
+			},
+		},
+	}));
+	console.log(JSON.stringify(configs))
+	console.log('configs', configs)
+	configs.forEach(cfg => {
+		const sd = StyleDictionary.extend(cfg);
+		sd.cleanAllPlatforms(); // optionally, cleanup files first..
+		sd.buildAllPlatforms();
+	});
 }
 
-console.log("Build started...");
-console.log("\n==============================================");
-
-// REGISTER THE CUSTOM TRANFORMS
-
-StyleDictionary.registerTransform({
-  name: "size/remToPx",
-  type: "value",
-  matcher: function (token) {
-    return token.attributes.category === "font";
-  },
-  transformer: function (token, options) {
-    const val = parseFloat(token.value);
-    const baseFont = getBasePxFontSize(options);
-    if (isNaN(val)) throwSizeError(token.name, token.value, "px");
-    return (val * baseFont).toFixed(0) + "px";
-  },
-});
-
-// REGISTER THE CUSTOM TRANFORM GROUPS
-
-StyleDictionary.registerTransformGroup({
-  name: "custom/scss",
-  transforms: ["attribute/cti", "size/remToPx", "name/cti/kebab", "color/hsl"],
-});
-
-// APPLY THE CONFIGURATION
-// IMPORTANT: the registration of custom transforms
-// needs to be done _before_ applying the configuration
-const StyleDictionaryExtended = StyleDictionary.extend(
-  __dirname + "/config.json"
-);
-
-// FINALLY, BUILD ALL THE PLATFORMS
-StyleDictionaryExtended.buildAllPlatforms();
-
-console.log("\n==============================================");
-console.log("\nBuild completed!");
+run();
