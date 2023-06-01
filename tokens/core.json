@@ -582,6 +582,10 @@
       "value": "{fontSizes.body} * 1.5",
       "type": "fontSizes"
     },
+    "l": {
+      "value": "{fontSizes.body} * 1.125",
+      "type": "fontSizes"
+    },
     "xxl": {
       "value": "{fontSizes.body} * 2",
       "type": "fontSizes"
