@@ -163,13 +163,13 @@
   --kiona-box-shadow-default: 5px 5px 5px 3px #edf2f7, inset 4px 4px 5px 6px #00000033;
   --kiona-button-cta-background: #9f7aea;
   --kiona-button-cta-text: #ffffff;
-  --kiona-button-standard-background: #e9d8fd;
-  --kiona-button-standard-text: #9f7aea;
-  --kiona-button-standard-border: 1px solid #718096;
+  --kiona-button-standard-background: #4a5568;
+  --kiona-button-standard-text: #f7fafc;
+  --kiona-button-standard-border: 1px solid #9f7aea;
   --kiona-button-text-background: rgba(0,0,0,0);
-  --kiona-button-text-text: #9f7aea;
+  --kiona-button-text-text: #f7fafc;
   --kiona-button-border-radius: 4px;
-  --kiona-button-border-width: 2px;
+  --kiona-button-border-width: 8px;
   --kiona-card-border-radius: 8px;
   --kiona-card-background: #2d3748;
   --kiona-card-padding: 16px;
