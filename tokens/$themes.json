@@ -1,7 +1,7 @@
 [
   {
     "id": "b7261a36ac6d341afc1d906cf489f2d1ed2793f0",
-    "name": "kiona-core-light",
+    "name": "kiona-theme-light",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "core": "source",
@@ -11,7 +11,7 @@
   },
   {
     "id": "b6873d7a47ef42482b4ebb4e8c0e7bff8dfeda09",
-    "name": "kiona-theme-light",
+    "name": "kiona-theme-dark",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "core": "source",
