@@ -1,15 +1,15 @@
 {
   "colors": {
     "Primary": {
-      "value": "{colors.purple.500}",
+      "value": "{colors.green.500}",
       "type": "color"
     },
     "Primary700": {
-      "value": "{colors.purple.600}",
+      "value": "{colors.green.600}",
       "type": "color"
     },
     "Primary300": {
-      "value": "{colors.purple.200}",
+      "value": "{colors.green.300}",
       "type": "color"
     },
     "OnPrimary": {
@@ -17,11 +17,11 @@
       "type": "color"
     },
     "PrimaryContainer": {
-      "value": "{colors.purple.300}",
+      "value": "{colors.green.300}",
       "type": "color"
     },
     "OnPrimaryContainer": {
-      "value": "{colors.purple.800}",
+      "value": "{colors.green.700}",
       "type": "color"
     },
     "Secondary": {
@@ -57,7 +57,7 @@
       "type": "color"
     },
     "Error": {
-      "value": "{colors.red.500}",
+      "value": "{colors.red.700}",
       "type": "color"
     },
     "OnError": {
@@ -84,12 +84,8 @@
       "value": "#ccc",
       "type": "color"
     },
-    "InverseSurfaceVariant": {
-      "value": "#262626",
-      "type": "color"
-    },
     "InverseSurface": {
-      "value": "#151515",
+      "value": "#ccc",
       "type": "color"
     },
     "InverseOnSurface": {
@@ -113,7 +109,7 @@
       "type": "color"
     },
     "Background": {
-      "value": "#ededed",
+      "value": "#efefef",
       "type": "color"
     },
     "OnSurface": {

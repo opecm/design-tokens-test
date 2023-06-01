@@ -18,5 +18,15 @@
       "kiona-theme-material": "enabled",
       "kiona-dark": "enabled"
     }
+  },
+  {
+    "id": "ccb53cbc3915a9013c06a8a1180248521110c600",
+    "name": "fortum-theme-material",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "core": "source",
+      "kiona-light": "enabled",
+      "fortum-theme-material": "source"
+    }
   }
 ]
