@@ -12,7 +12,7 @@
     },
     "standard": {
       "background": {
-        "value": "{colors.gray.700}",
+        "value": "{colors.gray.800}",
         "type": "color"
       },
       "text": {
@@ -21,7 +21,7 @@
       },
       "border": {
         "value": {
-          "color": "{colors.Primary}",
+          "color": "{colors.gray.600}",
           "width": "1",
           "style": "solid"
         },
