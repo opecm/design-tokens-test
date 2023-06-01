@@ -2,11 +2,11 @@
   "button": {
     "cta": {
       "background": {
-        "value": "{Primary}",
+        "value": "{colors.Primary}",
         "type": "color"
       },
       "text": {
-        "value": "{OnPrimary}",
+        "value": "{colors.OnPrimary}",
         "type": "color"
       }
     },
@@ -34,7 +34,7 @@
         "type": "color"
       },
       "text": {
-        "value": "{Primary}",
+        "value": "{colors.Primary}",
         "type": "color"
       }
     },
