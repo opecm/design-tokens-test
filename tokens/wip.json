@@ -28,16 +28,8 @@
     }
   },
   "accent": {
-    "default": {
-      "value": "{colors.indigo.600}",
-      "type": "color"
-    },
     "onAccent": {
       "value": "{colors.white}",
-      "type": "color"
-    },
-    "bg": {
-      "value": "{colors.indigo.800}",
       "type": "color"
     }
   },
