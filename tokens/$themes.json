@@ -6,8 +6,7 @@
     "selectedTokenSets": {
       "core": "source",
       "kiona-theme-material": "enabled",
-      "kiona-light": "enabled",
-      "random-them": "disabled"
+      "kiona-light": "enabled"
     }
   },
   {
@@ -17,8 +16,7 @@
     "selectedTokenSets": {
       "core": "source",
       "kiona-theme-material": "enabled",
-      "kiona-dark": "enabled",
-      "random-them": "disabled"
+      "kiona-dark": "enabled"
     }
   },
   {
@@ -28,8 +26,7 @@
     "selectedTokenSets": {
       "core": "source",
       "kiona-light": "enabled",
-      "fortum-theme-material": "source",
-      "random-them": "disabled"
+      "fortum-theme-material": "source"
     }
   },
   {
