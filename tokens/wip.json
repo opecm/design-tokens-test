@@ -5,25 +5,25 @@
       "type": "color"
     },
     "muted": {
-      "value": "{colors.gray.300}",
+      "value": "{colors.gray.30}",
       "type": "color"
     },
     "subtle": {
-      "value": "{colors.gray.500}",
+      "value": "{colors.gray.50}",
       "type": "color"
     }
   },
   "bg": {
     "default": {
-      "value": "{colors.gray.900}",
+      "value": "{colors.gray.90}",
       "type": "color"
     },
     "muted": {
-      "value": "{colors.gray.700}",
+      "value": "{colors.gray.70}",
       "type": "color"
     },
     "subtle": {
-      "value": "{colors.gray.600}",
+      "value": "{colors.gray.60}",
       "type": "color"
     }
   },

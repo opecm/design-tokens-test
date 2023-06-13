@@ -1,11 +1,10 @@
 {
   "tokenSetOrder": [
-    "core",
-    "kiona-theme-material",
-    "fortum-theme-material",
-    "random-them",
-    "kiona-light",
-    "kiona-dark",
+    "Reference-tokens",
+    "kiona-system-tokens",
+    "fortum-system-tokens",
+    "component-tokens-light",
+    "components-tokens-dark",
     "wip"
   ]
 }

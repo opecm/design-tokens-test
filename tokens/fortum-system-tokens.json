@@ -1,15 +1,15 @@
 {
   "colors": {
     "Primary": {
-      "value": "{colors.green.500}",
+      "value": "{colors.green.50}",
       "type": "color"
     },
     "Primary700": {
-      "value": "{colors.green.600}",
+      "value": "{colors.green.60}",
       "type": "color"
     },
     "Primary300": {
-      "value": "{colors.green.300}",
+      "value": "{colors.green.30}",
       "type": "color"
     },
     "OnPrimary": {
@@ -17,11 +17,11 @@
       "type": "color"
     },
     "PrimaryContainer": {
-      "value": "{colors.green.300}",
+      "value": "{colors.green.30}",
       "type": "color"
     },
     "OnPrimaryContainer": {
-      "value": "{colors.green.700}",
+      "value": "{colors.green.70}",
       "type": "color"
     },
     "Secondary": {
@@ -33,11 +33,11 @@
       "type": "color"
     },
     "SecondaryContainer": {
-      "value": "{colors.blue.300}",
+      "value": "{colors.blue.30}",
       "type": "color"
     },
     "OnSecondaryContainer": {
-      "value": "{colors.blue.700}",
+      "value": "{colors.blue.70}",
       "type": "color"
     },
     "Tertiary": {
@@ -57,7 +57,7 @@
       "type": "color"
     },
     "Error": {
-      "value": "{colors.red.700}",
+      "value": "{colors.red.70}",
       "type": "color"
     },
     "OnError": {
@@ -65,15 +65,15 @@
       "type": "color"
     },
     "ErrorContainer": {
-      "value": "{colors.red.300}",
+      "value": "{colors.red.30}",
       "type": "color"
     },
     "OnErrorContainer": {
-      "value": "{colors.red.700}",
+      "value": "{colors.red.70}",
       "type": "color"
     },
     "SurfaceVariant": {
-      "value": "{colors.gray.400}",
+      "value": "{colors.gray.40}",
       "type": "color"
     },
     "OnSurfaceVariant": {

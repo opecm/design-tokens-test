@@ -1,15 +1,15 @@
 {
   "colors": {
     "Primary": {
-      "value": "{colors.blue.500}",
+      "value": "{colors.purple.50}",
       "type": "color"
     },
     "Primary700": {
-      "value": "{colors.blue.600}",
+      "value": "{colors.purple.60}",
       "type": "color"
     },
     "Primary300": {
-      "value": "{colors.blue.300}",
+      "value": "{colors.purple.20}",
       "type": "color"
     },
     "OnPrimary": {
@@ -17,11 +17,11 @@
       "type": "color"
     },
     "PrimaryContainer": {
-      "value": "{colors.blue.400}",
+      "value": "{colors.purple.30}",
       "type": "color"
     },
     "OnPrimaryContainer": {
-      "value": "{colors.blue.700}",
+      "value": "{colors.purple.80}",
       "type": "color"
     },
     "Secondary": {
@@ -33,11 +33,11 @@
       "type": "color"
     },
     "SecondaryContainer": {
-      "value": "{colors.blue.300}",
+      "value": "{colors.blue.30}",
       "type": "color"
     },
     "OnSecondaryContainer": {
-      "value": "{colors.blue.700}",
+      "value": "{colors.blue.70}",
       "type": "color"
     },
     "Tertiary": {
@@ -57,7 +57,7 @@
       "type": "color"
     },
     "Error": {
-      "value": "{colors.red.700}",
+      "value": "{colors.red.50}",
       "type": "color"
     },
     "OnError": {
@@ -65,15 +65,15 @@
       "type": "color"
     },
     "ErrorContainer": {
-      "value": "{colors.red.300}",
+      "value": "{colors.red.30}",
       "type": "color"
     },
     "OnErrorContainer": {
-      "value": "{colors.red.700}",
+      "value": "{colors.red.70}",
       "type": "color"
     },
     "SurfaceVariant": {
-      "value": "{colors.gray.400}",
+      "value": "{colors.gray.40}",
       "type": "color"
     },
     "OnSurfaceVariant": {
@@ -84,8 +84,12 @@
       "value": "#ccc",
       "type": "color"
     },
+    "InverseSurfaceVariant": {
+      "value": "#262626",
+      "type": "color"
+    },
     "InverseSurface": {
-      "value": "#ccc",
+      "value": "#262626",
       "type": "color"
     },
     "InverseOnSurface": {
@@ -109,11 +113,11 @@
       "type": "color"
     },
     "Background": {
-      "value": "#efefef",
+      "value": "#ededed",
       "type": "color"
     },
     "OnSurface": {
-      "value": "{colors.black}",
+      "value": "#262626",
       "type": "color"
     },
     "Surface": {
