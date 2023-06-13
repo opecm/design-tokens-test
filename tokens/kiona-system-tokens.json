@@ -1,43 +1,43 @@
 {
   "colors": {
     "Primary": {
-      "value": "{colors.purple.50}",
+      "value": "{palette.purple.50}",
       "type": "color"
     },
     "Primary700": {
-      "value": "{colors.purple.60}",
+      "value": "{palette.purple.60}",
       "type": "color"
     },
     "Primary300": {
-      "value": "{colors.purple.20}",
+      "value": "{palette.purple.20}",
       "type": "color"
     },
     "OnPrimary": {
-      "value": "{colors.white}",
+      "value": "{palette.white}",
       "type": "color"
     },
     "PrimaryContainer": {
-      "value": "{colors.purple.30}",
+      "value": "{palette.purple.30}",
       "type": "color"
     },
     "OnPrimaryContainer": {
-      "value": "{colors.purple.80}",
+      "value": "{palette.purple.80}",
       "type": "color"
     },
     "Secondary": {
-      "value": "{colors.indigo.500}",
+      "value": "{palette.blue.80}",
       "type": "color"
     },
     "OnSecondary": {
-      "value": "{colors.white}",
+      "value": "{palette.white}",
       "type": "color"
     },
     "SecondaryContainer": {
-      "value": "{colors.blue.30}",
+      "value": "{palette.blue.30}",
       "type": "color"
     },
     "OnSecondaryContainer": {
-      "value": "{colors.blue.70}",
+      "value": "{palette.blue.70}",
       "type": "color"
     },
     "Tertiary": {
@@ -57,27 +57,27 @@
       "type": "color"
     },
     "Error": {
-      "value": "{colors.red.50}",
+      "value": "{palette.red.50}",
       "type": "color"
     },
     "OnError": {
-      "value": "{colors.white}",
+      "value": "{palette.white}",
       "type": "color"
     },
     "ErrorContainer": {
-      "value": "{colors.red.30}",
+      "value": "{palette.red.30}",
       "type": "color"
     },
     "OnErrorContainer": {
-      "value": "{colors.red.70}",
+      "value": "{palette.red.70}",
       "type": "color"
     },
     "SurfaceVariant": {
-      "value": "{colors.gray.40}",
+      "value": "{palette.gray.40}",
       "type": "color"
     },
     "OnSurfaceVariant": {
-      "value": "{colors.black}",
+      "value": "{palette.black}",
       "type": "color"
     },
     "Outline": {

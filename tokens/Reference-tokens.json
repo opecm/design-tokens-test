@@ -71,7 +71,7 @@
       "description": "You can have multiple values in a single radius token. Read more on these: https://docs.tokens.studio/available-tokens/border-radius-tokens#single--multiple-values"
     }
   },
-  "colors": {
+  "palette": {
     "black": {
       "value": "#000000",
       "type": "color"
@@ -484,7 +484,7 @@
           "x": "5",
           "y": "5",
           "spread": "3",
-          "color": "{colors.gray.20}",
+          "color": "{palette.gray.20}",
           "blur": "5",
           "type": "dropShadow"
         },
