@@ -4,7 +4,6 @@
     "kiona-system-tokens",
     "fortum-system-tokens",
     "component-tokens-light",
-    "components-tokens-dark",
-    "wip"
+    "components-tokens-dark"
   ]
 }
