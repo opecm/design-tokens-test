@@ -1,7 +1,7 @@
 {
   "colors": {
     "Primary": {
-      "value": "{palette.primary.50}",
+      "value": "{palette.primary.100}",
       "type": "color"
     },
     "OnPrimary": {
@@ -9,15 +9,15 @@
       "type": "color"
     },
     "PrimaryContainer": {
-      "value": "{palette.primary.30}",
+      "value": "{palette.primary.25}",
       "type": "color"
     },
     "OnPrimaryContainer": {
-      "value": "{palette.primary.80}",
+      "value": "{palette.primary.100}",
       "type": "color"
     },
     "Secondary": {
-      "value": "{palette.blue.80}",
+      "value": "{palette.secondary.100}",
       "type": "color"
     },
     "OnSecondary": {
@@ -25,11 +25,11 @@
       "type": "color"
     },
     "SecondaryContainer": {
-      "value": "{palette.blue.30}",
+      "value": "{palette.secondary.50}",
       "type": "color"
     },
     "OnSecondaryContainer": {
-      "value": "{palette.blue.70}",
+      "value": "{palette.white}",
       "type": "color"
     },
     "Tertiary": {
@@ -49,7 +49,7 @@
       "type": "color"
     },
     "Error": {
-      "value": "{palette.error.50}",
+      "value": "{palette.error.100}",
       "type": "color"
     },
     "OnError": {
@@ -57,15 +57,15 @@
       "type": "color"
     },
     "ErrorContainer": {
-      "value": "{palette.error.30}",
+      "value": "{palette.error.50}",
       "type": "color"
     },
     "OnErrorContainer": {
-      "value": "{palette.error.70}",
+      "value": "{palette.error.0}",
       "type": "color"
     },
     "SurfaceVariant": {
-      "value": "{palette.tetriary.40}",
+      "value": "{palette.black}",
       "type": "color"
     },
     "OnSurfaceVariant": {
@@ -101,19 +101,19 @@
       "type": "color"
     },
     "OnBackground": {
-      "value": "#ccc",
+      "value": "{palette.white}",
       "type": "color"
     },
     "Background": {
-      "value": "#333333",
+      "value": "{palette.secondary.100}",
       "type": "color"
     },
     "OnSurface": {
-      "value": "{palette.tetriary.10}",
+      "value": "#262626",
       "type": "color"
     },
     "Surface": {
-      "value": "#333333",
+      "value": "#fff",
       "type": "color"
     }
   }

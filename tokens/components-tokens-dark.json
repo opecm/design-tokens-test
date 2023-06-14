@@ -1,10 +1,4 @@
 {
-  "global": {
-    "background": {
-      "value": "{colors.Background}",
-      "type": "color"
-    }
-  },
   "button": {
     "cta": {
       "background": {
@@ -22,16 +16,16 @@
         "type": "color"
       },
       "text": {
-        "value": "{palette.tetriary.10}",
+        "value": "{palette.tetriary.100}",
         "type": "color"
       },
       "hover": {
-        "value": "{colors.Primary700}",
+        "value": "{palette.secondary.150}",
         "type": "color"
       },
       "border": {
         "value": {
-          "color": "{palette.tetriary.60}",
+          "color": "{palette.secondary.50}",
           "width": "1",
           "style": "solid"
         },
@@ -44,7 +38,11 @@
         "type": "color"
       },
       "text": {
-        "value": "{palette.tetriary.10}",
+        "value": "{palette.tetriary.100}",
+        "type": "color"
+      },
+      "hover": {
+        "value": "{palette.secondary.150}",
         "type": "color"
       }
     },

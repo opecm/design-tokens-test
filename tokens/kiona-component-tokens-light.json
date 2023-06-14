@@ -1,10 +1,4 @@
 {
-  "global": {
-    "background": {
-      "value": "{colors.Background}",
-      "type": "color"
-    }
-  },
   "button": {
     "cta": {
       "background": {
