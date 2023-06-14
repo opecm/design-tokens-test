@@ -2,8 +2,9 @@
   "tokenSetOrder": [
     "Reference-tokens",
     "kiona-system-tokens",
-    "fortum-system-tokens",
     "component-tokens-light",
-    "components-tokens-dark"
+    "kiona-system-dark-tokens",
+    "components-tokens-dark",
+    "fortum-system-tokens"
   ]
 }

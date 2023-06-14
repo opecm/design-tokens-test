@@ -1,7 +1,7 @@
 {
   "colors": {
     "Primary": {
-      "value": "{palette.primary.100}",
+      "value": "{palette.primary.50}",
       "type": "color"
     },
     "OnPrimary": {
@@ -105,15 +105,15 @@
       "type": "color"
     },
     "Background": {
-      "value": "{palette.tetriary.100}",
+      "value": "#333333",
       "type": "color"
     },
     "OnSurface": {
-      "value": "#262626",
+      "value": "{palette.tetriary.10}",
       "type": "color"
     },
     "Surface": {
-      "value": "#fff",
+      "value": "#333333",
       "type": "color"
     }
   }

@@ -57,7 +57,7 @@
       "type": "color"
     },
     "Error": {
-      "value": "{palette.red.70}",
+      "value": "{palette.error.70}",
       "type": "color"
     },
     "OnError": {
@@ -65,15 +65,15 @@
       "type": "color"
     },
     "ErrorContainer": {
-      "value": "{palette.red.30}",
+      "value": "{palette.error.30}",
       "type": "color"
     },
     "OnErrorContainer": {
-      "value": "{palette.red.70}",
+      "value": "{palette.error.70}",
       "type": "color"
     },
     "SurfaceVariant": {
-      "value": "{palette.gray.40}",
+      "value": "{palette.tetriary.40}",
       "type": "color"
     },
     "OnSurfaceVariant": {
