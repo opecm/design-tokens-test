@@ -12,6 +12,10 @@
       "hover": {
         "value": "{palette.primary.125}",
         "type": "color"
+      },
+      "disabled": {
+        "value": "{palette.tetriary.150}",
+        "type": "color"
       }
     },
     "standard": {
