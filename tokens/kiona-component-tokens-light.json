@@ -1,10 +1,4 @@
 {
-  "global": {
-    "background": {
-      "value": "{colors.Background}",
-      "type": "color"
-    }
-  },
   "button": {
     "cta": {
       "background": {
@@ -16,21 +10,21 @@
         "type": "color"
       },
       "hover": {
-        "value": "{colors.Primary700}",
+        "value": "{palette.primary.125}",
         "type": "color"
       }
     },
     "standard": {
       "background": {
-        "value": "{colors.Primary300}",
+        "value": "{palette.primary.10}",
         "type": "color"
       },
       "text": {
-        "value": "{colors.OnPrimaryContainer}",
+        "value": "{colors.Primary}",
         "type": "color"
       },
       "hover": {
-        "value": "{colors.PrimaryContainer}",
+        "value": "{palette.primary.25}",
         "type": "color"
       },
       "border": {
@@ -49,6 +43,10 @@
       },
       "text": {
         "value": "{colors.Primary}",
+        "type": "color"
+      },
+      "hover": {
+        "value": "{palette.primary.5}",
         "type": "color"
       }
     },

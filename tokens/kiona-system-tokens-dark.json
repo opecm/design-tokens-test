@@ -1,15 +1,7 @@
 {
   "colors": {
     "Primary": {
-      "value": "{palette.green.50}",
-      "type": "color"
-    },
-    "Primary700": {
-      "value": "{palette.green.60}",
-      "type": "color"
-    },
-    "Primary300": {
-      "value": "{palette.green.30}",
+      "value": "{palette.primary.100}",
       "type": "color"
     },
     "OnPrimary": {
@@ -17,15 +9,15 @@
       "type": "color"
     },
     "PrimaryContainer": {
-      "value": "{palette.green.30}",
+      "value": "{palette.primary.25}",
       "type": "color"
     },
     "OnPrimaryContainer": {
-      "value": "{palette.green.70}",
+      "value": "{palette.primary.100}",
       "type": "color"
     },
     "Secondary": {
-      "value": "{palette.blue.90}",
+      "value": "{palette.secondary.100}",
       "type": "color"
     },
     "OnSecondary": {
@@ -33,11 +25,11 @@
       "type": "color"
     },
     "SecondaryContainer": {
-      "value": "{palette.blue.30}",
+      "value": "{palette.secondary.50}",
       "type": "color"
     },
     "OnSecondaryContainer": {
-      "value": "{palette.blue.70}",
+      "value": "{palette.white}",
       "type": "color"
     },
     "Tertiary": {
@@ -57,7 +49,7 @@
       "type": "color"
     },
     "Error": {
-      "value": "{palette.red.70}",
+      "value": "{palette.error.100}",
       "type": "color"
     },
     "OnError": {
@@ -65,15 +57,15 @@
       "type": "color"
     },
     "ErrorContainer": {
-      "value": "{palette.red.30}",
+      "value": "{palette.error.50}",
       "type": "color"
     },
     "OnErrorContainer": {
-      "value": "{palette.red.70}",
+      "value": "{palette.error.0}",
       "type": "color"
     },
     "SurfaceVariant": {
-      "value": "{palette.gray.40}",
+      "value": "{palette.black}",
       "type": "color"
     },
     "OnSurfaceVariant": {
@@ -84,8 +76,12 @@
       "value": "#ccc",
       "type": "color"
     },
+    "InverseSurfaceVariant": {
+      "value": "#262626",
+      "type": "color"
+    },
     "InverseSurface": {
-      "value": "#ccc",
+      "value": "#262626",
       "type": "color"
     },
     "InverseOnSurface": {
@@ -105,15 +101,15 @@
       "type": "color"
     },
     "OnBackground": {
-      "value": "#ccc",
+      "value": "{palette.white}",
       "type": "color"
     },
     "Background": {
-      "value": "#efefef",
+      "value": "{palette.secondary.100}",
       "type": "color"
     },
     "OnSurface": {
-      "value": "{palette.black}",
+      "value": "#262626",
       "type": "color"
     },
     "Surface": {

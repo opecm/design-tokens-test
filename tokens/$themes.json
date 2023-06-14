@@ -4,9 +4,9 @@
     "name": "kiona-light",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Reference-tokens": "source",
       "kiona-system-tokens": "enabled",
-      "component-tokens-light": "enabled"
+      "kiona-reference-tokens": "source",
+      "kiona-component-tokens-light": "enabled"
     }
   },
   {
@@ -14,19 +14,9 @@
     "name": "kiona-dark",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Reference-tokens": "source",
       "kiona-system-tokens": "enabled",
-      "components-tokens-dark": "enabled"
-    }
-  },
-  {
-    "id": "ccb53cbc3915a9013c06a8a1180248521110c600",
-    "name": "fortum-light",
-    "$figmaStyleReferences": {},
-    "selectedTokenSets": {
-      "Reference-tokens": "source",
-      "fortum-system-tokens": "source",
-      "component-tokens-light": "enabled"
+      "components-tokens-dark": "enabled",
+      "kiona-reference-tokens": "source"
     }
   }
 ]
