@@ -1,6 +1,7 @@
 const { registerTransforms } = require('@tokens-studio/sd-transforms');
 const StyleDictionary = require('style-dictionary');
 const { promises } = require('fs');
+const fs = require('fs')
 
 StyleDictionary.registerFormat({
 	name: 'scss/variables',
@@ -99,4 +100,33 @@ async function run() {
 	});
 }
 
-run();
+function resetBuildContent(folderPath) {
+	return new Promise((resolve, reject) => {
+		// Check if the folder exists
+		if (fs.existsSync(folderPath)) {
+			// Remove the folder and its contents
+			fs.rmdir(folderPath, { recursive: true }, (error) => {
+				if (error) {
+					reject(error);
+				} else {
+					resolve(`Folder '${folderPath}' and its contents have been removed.`);
+				}
+			});
+		} else {
+			resolve(`Folder '${folderPath}' does not exist.`);
+		}
+	});
+}
+
+// Usage example
+resetBuildContent('./build')
+	.then(() => {
+		run();
+	})
+	.catch((error) => {
+		console.error(error);
+	});
+
+
+
+
