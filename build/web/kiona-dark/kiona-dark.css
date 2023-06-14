@@ -1,6 +1,8 @@
 :root {
   --kiona-button-cta-background: #7643BB;
   --kiona-button-cta-text: #ffffff;
+  --kiona-button-cta-hover: #59328C;
+  --kiona-button-cta-disabled: #a7a7a7;
   --kiona-button-standard-background: #262626;
   --kiona-button-standard-text: #EEEEEE;
   --kiona-button-standard-hover: #1A1A1A;
