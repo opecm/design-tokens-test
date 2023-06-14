@@ -14,9 +14,9 @@
     "name": "kiona-dark",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "kiona-system-tokens": "enabled",
       "components-tokens-dark": "enabled",
-      "kiona-reference-tokens": "source"
+      "kiona-reference-tokens": "source",
+      "kiona-system-tokens-dark": "source"
     }
   }
 ]
