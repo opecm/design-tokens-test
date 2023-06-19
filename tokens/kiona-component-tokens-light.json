@@ -19,7 +19,7 @@
           "type": "color"
         }
       },
-      "standard": {
+      "tonal": {
         "background": {
           "value": "{palette.primary.10}",
           "type": "color"
@@ -30,6 +30,28 @@
         },
         "hover": {
           "value": "{palette.primary.25}",
+          "type": "color"
+        },
+        "border": {
+          "value": {
+            "color": "{sem.colors.primary}",
+            "width": "1",
+            "style": "solid"
+          },
+          "type": "border"
+        }
+      },
+      "outline": {
+        "background": {
+          "value": "rgba(0,0,0,0)",
+          "type": "color"
+        },
+        "text": {
+          "value": "{sem.colors.primary}",
+          "type": "color"
+        },
+        "hover": {
+          "value": "{palette.primary.125}",
           "type": "color"
         },
         "border": {
