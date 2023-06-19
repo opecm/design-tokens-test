@@ -3,7 +3,8 @@
   --kiona-sem-colors-primary-active: #7643BB;
   --kiona-sem-colors-primary-hover: #471F7B;
   --kiona-sem-colors-primary-disabled: #a7a7a7;
-  --kiona-sem-colors-text-default: #EEEEEE;
+  --kiona-sem-colors-text-default: #666666;
+  --kiona-sem-colors-text-secondary: #EEEEEE;
   --kiona-sem-colors-primary: #7643BB;
   --kiona-sem-colors-on-primary: #ffffff;
   --kiona-sem-colors-primary-container: #DCD0EE;
@@ -12,7 +13,7 @@
   --kiona-sem-colors-on-secondary: #ffffff;
   --kiona-sem-colors-secondary-container: #666666;
   --kiona-sem-colors-on-secondary-container: #ffffff;
-  --kiona-sem-colors-tertiary: #ccc;
+  --kiona-sem-colors-tertiary: #EEEEEE;
   --kiona-sem-colors-on-tertiary: #ccc;
   --kiona-sem-colors-tertiary-container: #ccc;
   --kiona-sem-colors-on-tertiary-container: #ccc;
@@ -39,7 +40,9 @@
   --kiona-sem-colors-on-success-container: #0D620A;
   --kiona-sem-default: 1px solid #7643BB;
   --kiona-sem-default-active: 1px solid #7643BB;
-  --kiona-sem-default-disabled: 1px solid #7643BB;
+  --kiona-sem-default-disabled: 1px solid #a7a7a7;
+  --kiona-sem-default-hovered: 1px solid #333333;
+  --kiona-sem-error: 1px solid #EC0F0F;
   --kiona-dimension-scale: 2px;
   --kiona-dimension-xs: 4px;
   --kiona-dimension-sm: 8px;
@@ -68,7 +71,7 @@
   --kiona-palette-primary-125: #59328C;
   --kiona-palette-primary-150: #471F7B;
   --kiona-palette-secondary-50: #666666;
-  --kiona-palette-secondary-75: #666666;
+  --kiona-palette-secondary-75: #555555;
   --kiona-palette-secondary-100: #333333;
   --kiona-palette-secondary-125: #262626;
   --kiona-palette-secondary-150: #1A1A1A;
@@ -142,10 +145,14 @@
   --kiona-comp-button-cta-text: #ffffff;
   --kiona-comp-button-cta-hover: #59328C;
   --kiona-comp-button-cta-disabled: #a7a7a7;
-  --kiona-comp-button-standard-background: #F3EAFF;
-  --kiona-comp-button-standard-text: #7643BB;
-  --kiona-comp-button-standard-hover: #DCD0EE;
-  --kiona-comp-button-standard-border: 1px solid #7643BB;
+  --kiona-comp-button-tonal-background: #F3EAFF;
+  --kiona-comp-button-tonal-text: #7643BB;
+  --kiona-comp-button-tonal-hover: #DCD0EE;
+  --kiona-comp-button-tonal-border: 1px solid #7643BB;
+  --kiona-comp-button-outline-background: rgba(0,0,0,0);
+  --kiona-comp-button-outline-text: #7643BB;
+  --kiona-comp-button-outline-hover: #59328C;
+  --kiona-comp-button-outline-border: 1px solid #7643BB;
   --kiona-comp-button-text-background: rgba(0,0,0,0);
   --kiona-comp-button-text-text: #7643BB;
   --kiona-comp-button-text-hover: #faf5ff;
