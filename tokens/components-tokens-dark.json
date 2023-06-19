@@ -92,7 +92,7 @@
         "type": "borderRadius"
       },
       "background": {
-        "value": "{sem.colors.surface}",
+        "value": "{palette.secondary.125}",
         "type": "color"
       },
       "padding": {

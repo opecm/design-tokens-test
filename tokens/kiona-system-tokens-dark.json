@@ -25,6 +25,10 @@
         "value": "{palette.tetriary.100}",
         "type": "color"
       },
+      "text-active": {
+        "value": "{palette.primary.50}",
+        "type": "color"
+      },
       "primary": {
         "value": "{palette.primary.100}",
         "type": "color"
@@ -33,7 +37,7 @@
         "value": "{palette.white}",
         "type": "color"
       },
-      "primaryContainer": {
+      "primary-container": {
         "value": "{palette.primary.25}",
         "type": "color"
       },
@@ -43,18 +47,6 @@
       },
       "secondary": {
         "value": "{palette.secondary.100}",
-        "type": "color"
-      },
-      "onSecondary": {
-        "value": "{palette.white}",
-        "type": "color"
-      },
-      "secondaryContainer": {
-        "value": "{palette.secondary.50}",
-        "type": "color"
-      },
-      "onSecondaryContainer": {
-        "value": "{palette.white}",
         "type": "color"
       },
       "tertiary": {
@@ -101,27 +93,11 @@
         "value": "#ccc",
         "type": "color"
       },
-      "inverseSurfaceVariant": {
-        "value": "#262626",
-        "type": "color"
-      },
-      "inverseSurface": {
-        "value": "#262626",
-        "type": "color"
-      },
       "inverseOnSurface": {
         "value": "#ccc",
         "type": "color"
       },
       "inversePrimary": {
-        "value": "#ccc",
-        "type": "color"
-      },
-      "shadow": {
-        "value": "#ccc",
-        "type": "color"
-      },
-      "surfaceTint": {
         "value": "#ccc",
         "type": "color"
       },
@@ -139,6 +115,10 @@
       },
       "surface": {
         "value": "{palette.secondary.75}",
+        "type": "color"
+      },
+      "surface-dark": {
+        "value": "{palette.secondary.125}",
         "type": "color"
       },
       "success": {
