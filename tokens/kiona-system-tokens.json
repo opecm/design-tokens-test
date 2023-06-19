@@ -1,120 +1,182 @@
 {
-  "colors": {
-    "Primary": {
-      "value": "{palette.primary.100}",
-      "type": "color"
+  "sem": {
+    "colors": {
+      "primary-selected": {
+        "value": "{palette.primary.100}",
+        "type": "color"
+      },
+      "primary-active": {
+        "value": "{palette.primary.100}",
+        "type": "color"
+      },
+      "primary-hover": {
+        "value": "{palette.primary.150}",
+        "type": "color"
+      },
+      "primary-disabled": {
+        "value": "{palette.tetriary.150}",
+        "type": "color"
+      },
+      "text-default": {
+        "value": "{palette.tetriary.100}",
+        "type": "color"
+      },
+      "primary": {
+        "value": "{palette.primary.100}",
+        "type": "color"
+      },
+      "onPrimary": {
+        "value": "{palette.white}",
+        "type": "color"
+      },
+      "primaryContainer": {
+        "value": "{palette.primary.25}",
+        "type": "color"
+      },
+      "onPrimaryContainer": {
+        "value": "{palette.primary.100}",
+        "type": "color"
+      },
+      "secondary": {
+        "value": "{palette.secondary.100}",
+        "type": "color"
+      },
+      "onSecondary": {
+        "value": "{palette.white}",
+        "type": "color"
+      },
+      "secondaryContainer": {
+        "value": "{palette.secondary.50}",
+        "type": "color"
+      },
+      "onSecondaryContainer": {
+        "value": "{palette.white}",
+        "type": "color"
+      },
+      "tertiary": {
+        "value": "#ccc",
+        "type": "color"
+      },
+      "onTertiary": {
+        "value": "#ccc",
+        "type": "color"
+      },
+      "tertiaryContainer": {
+        "value": "#ccc",
+        "type": "color"
+      },
+      "onTertiaryContainer": {
+        "value": "#ccc",
+        "type": "color"
+      },
+      "error": {
+        "value": "{palette.error.100}",
+        "type": "color"
+      },
+      "onError": {
+        "value": "{palette.white}",
+        "type": "color"
+      },
+      "errorContainer": {
+        "value": "{palette.error.50}",
+        "type": "color"
+      },
+      "onErrorContainer": {
+        "value": "{palette.error.0}",
+        "type": "color"
+      },
+      "surfaceVariant": {
+        "value": "{palette.black}",
+        "type": "color"
+      },
+      "onSurfaceVariant": {
+        "value": "{palette.black}",
+        "type": "color"
+      },
+      "outline": {
+        "value": "#ccc",
+        "type": "color"
+      },
+      "inverseSurfaceVariant": {
+        "value": "#262626",
+        "type": "color"
+      },
+      "inverseSurface": {
+        "value": "#262626",
+        "type": "color"
+      },
+      "inverseOnSurface": {
+        "value": "#ccc",
+        "type": "color"
+      },
+      "inversePrimary": {
+        "value": "#ccc",
+        "type": "color"
+      },
+      "shadow": {
+        "value": "#ccc",
+        "type": "color"
+      },
+      "surfaceTint": {
+        "value": "#ccc",
+        "type": "color"
+      },
+      "onBackground": {
+        "value": "#ccc",
+        "type": "color"
+      },
+      "background": {
+        "value": "{palette.tetriary.100}",
+        "type": "color"
+      },
+      "onSurface": {
+        "value": "#262626",
+        "type": "color"
+      },
+      "surface": {
+        "value": "#fff",
+        "type": "color"
+      },
+      "success": {
+        "value": "{palette.green.100}",
+        "type": "color"
+      },
+      "on-success": {
+        "value": "{palette.white}",
+        "type": "color"
+      },
+      "success-container": {
+        "value": "{palette.green.25}",
+        "type": "color"
+      },
+      "on-success-container": {
+        "value": "{palette.green.150}",
+        "type": "color"
+      }
     },
-    "OnPrimary": {
-      "value": "{palette.white}",
-      "type": "color"
+    "default": {
+      "value": {
+        "color": "{sem.colors.primary}",
+        "width": "1",
+        "style": "solid"
+      },
+      "type": "border"
     },
-    "PrimaryContainer": {
-      "value": "{palette.primary.25}",
-      "type": "color"
+    "default-active": {
+      "value": {
+        "color": "{sem.colors.primary}",
+        "width": "1",
+        "style": "solid"
+      },
+      "type": "border"
     },
-    "OnPrimaryContainer": {
-      "value": "{palette.primary.100}",
-      "type": "color"
-    },
-    "Secondary": {
-      "value": "{palette.secondary.100}",
-      "type": "color"
-    },
-    "OnSecondary": {
-      "value": "{palette.white}",
-      "type": "color"
-    },
-    "SecondaryContainer": {
-      "value": "{palette.secondary.50}",
-      "type": "color"
-    },
-    "OnSecondaryContainer": {
-      "value": "{palette.white}",
-      "type": "color"
-    },
-    "Tertiary": {
-      "value": "#ccc",
-      "type": "color"
-    },
-    "OnTertiary": {
-      "value": "#ccc",
-      "type": "color"
-    },
-    "TertiaryContainer": {
-      "value": "#ccc",
-      "type": "color"
-    },
-    "OnTertiaryContainer": {
-      "value": "#ccc",
-      "type": "color"
-    },
-    "Error": {
-      "value": "{palette.error.100}",
-      "type": "color"
-    },
-    "OnError": {
-      "value": "{palette.white}",
-      "type": "color"
-    },
-    "ErrorContainer": {
-      "value": "{palette.error.50}",
-      "type": "color"
-    },
-    "OnErrorContainer": {
-      "value": "{palette.error.0}",
-      "type": "color"
-    },
-    "SurfaceVariant": {
-      "value": "{palette.black}",
-      "type": "color"
-    },
-    "OnSurfaceVariant": {
-      "value": "{palette.black}",
-      "type": "color"
-    },
-    "Outline": {
-      "value": "#ccc",
-      "type": "color"
-    },
-    "InverseSurfaceVariant": {
-      "value": "#262626",
-      "type": "color"
-    },
-    "InverseSurface": {
-      "value": "#262626",
-      "type": "color"
-    },
-    "InverseOnSurface": {
-      "value": "#ccc",
-      "type": "color"
-    },
-    "InversePrimary": {
-      "value": "#ccc",
-      "type": "color"
-    },
-    "Shadow": {
-      "value": "#ccc",
-      "type": "color"
-    },
-    "SurfaceTint": {
-      "value": "#ccc",
-      "type": "color"
-    },
-    "OnBackground": {
-      "value": "#ccc",
-      "type": "color"
-    },
-    "Background": {
-      "value": "{palette.tetriary.100}",
-      "type": "color"
-    },
-    "OnSurface": {
-      "value": "#262626",
-      "type": "color"
-    },
-    "Surface": {
-      "value": "#fff",
-      "type": "color"
+    "default-disabled": {
+      "value": {
+        "color": "{sem.colors.primary}",
+        "width": "1",
+        "style": "solid"
+      },
+      "type": "border"
     }
   }
 }
