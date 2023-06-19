@@ -136,7 +136,7 @@
     },
     "default": {
       "value": {
-        "color": "{sem.colors.primary}",
+        "color": "{palette.tetriary.150}",
         "width": "1",
         "style": "solid"
       },
