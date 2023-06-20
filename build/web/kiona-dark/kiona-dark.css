@@ -32,14 +32,15 @@
   --kio-dimension-xl: 64px;
   --kio-spacing-xs: 4px;
   --kio-spacing-sm: 8px;
+  --kio-spacing-m: 12px;
   --kio-spacing-md: 16px;
+  --kio-spacing-l: 24px;
   --kio-spacing-lg: 32px;
   --kio-spacing-xl: 64px;
   --kio-spacing-multi-value: 8px 64px; /* You can have multiple values in a single spacing token. Read more on these: https://docs.tokens.studio/available-tokens/spacing-tokens#multi-value-spacing-tokens */
   --kio-border-radius-sm: 4px;
   --kio-border-radius-lg: 8px;
   --kio-border-radius-xl: 16px;
-  --kio-border-radius-multi-value: 4px 8px; /* You can have multiple values in a single radius token. Read more on these: https://docs.tokens.studio/available-tokens/border-radius-tokens#single--multiple-values */
   --kio-palette-black: #000000;
   --kio-palette-white: #ffffff;
   --kio-palette-primary-0: #fff;
@@ -107,12 +108,6 @@
   --kio-font-weights-heading-bold: 700;
   --kio-font-weights-body-regular: 400;
   --kio-font-weights-body-bold: 700;
-  --kio-font-sizes-h1: 48.829px;
-  --kio-font-sizes-h2: 39.063px;
-  --kio-font-sizes-h3: 31.25px;
-  --kio-font-sizes-h4: 25px;
-  --kio-font-sizes-h5: 20px;
-  --kio-font-sizes-h6: 16px;
   --kio-font-sizes-body: 16px;
   --kio-font-sizes-xs: 12px;
   --kio-font-sizes-sm: 13.6px;
