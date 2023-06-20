@@ -122,11 +122,11 @@
   --kio-font-weights-body-regular: 400;
   --kio-font-weights-body-bold: 700;
   --kio-font-sizes-body: 16px;
-  --kio-font-sizes-xs: 12px;
-  --kio-font-sizes-sm: 13.6px;
-  --kio-font-sizes-ml: 16px;
+  --kio-font-sizes-xs: 10px;
+  --kio-font-sizes-s: 12px;
+  --kio-font-sizes-m: 14px;
+  --kio-font-sizes-l: 16px;
   --kio-font-sizes-xl: 24px;
-  --kio-font-sizes-l: 18px;
   --kio-font-sizes-xxl: 32px;
   --kio-box-shadow-default: 5px 5px 5px 3px #EEEEEE, inset 4px 4px 5px 6px #00000033;
   --kio-comp-button-size-small: 26px;
