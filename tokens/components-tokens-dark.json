@@ -1,6 +1,16 @@
 {
   "comp": {
     "button": {
+      "size": {
+        "small": {
+          "value": "26px",
+          "type": "sizing"
+        },
+        "default": {
+          "value": "40px",
+          "type": "sizing"
+        }
+      },
       "cta": {
         "background": {
           "value": "{sem.colors.primary}",
@@ -21,20 +31,24 @@
       },
       "tonal": {
         "background": {
-          "value": "{palette.primary.10}",
+          "value": "{palette.secondary.125}",
           "type": "color"
         },
         "text": {
-          "value": "{sem.colors.primary}",
+          "value": "{sem.colors.text-default}",
           "type": "color"
         },
         "hover": {
-          "value": "{palette.primary.25}",
+          "value": "{palette.secondary.150}",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "rgba(0,0,0,0)",
           "type": "color"
         },
         "border": {
           "value": {
-            "color": "{sem.colors.primary}",
+            "color": "{palette.secondary.50}",
             "width": "1",
             "style": "solid"
           },
@@ -47,16 +61,20 @@
           "type": "color"
         },
         "text": {
-          "value": "{sem.colors.primary}",
+          "value": "{sem.colors.text-default}",
           "type": "color"
         },
         "hover": {
           "value": "{palette.primary.125}",
           "type": "color"
         },
+        "disabled": {
+          "value": "rgba(0,0,0,0)",
+          "type": "color"
+        },
         "border": {
           "value": {
-            "color": "{sem.colors.primary}",
+            "color": "{palette.tetriary.125}",
             "width": "1",
             "style": "solid"
           },
@@ -69,11 +87,15 @@
           "type": "color"
         },
         "text": {
-          "value": "{sem.colors.primary}",
+          "value": "{sem.colors.text-default}",
           "type": "color"
         },
         "hover": {
-          "value": "{palette.primary.5}",
+          "value": "{palette.secondary.125}",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "{palette.tetriary.150}",
           "type": "color"
         }
       },

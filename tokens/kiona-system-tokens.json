@@ -1,6 +1,14 @@
 {
   "sem": {
     "colors": {
+      "divide-line": {
+        "value": "{palette.tetriary.125}",
+        "type": "color"
+      },
+      "divide-line-strong": {
+        "value": "{palette.tetriary.150}",
+        "type": "color"
+      },
       "text-default": {
         "value": "{palette.secondary.50}",
         "type": "color"
@@ -87,6 +95,10 @@
       },
       "surface-dark": {
         "value": "{palette.tetriary.125}",
+        "type": "color"
+      },
+      "on-surface-dark": {
+        "value": "{palette.tetriary.150}",
         "type": "color"
       },
       "success": {
