@@ -2,6 +2,8 @@
  * @tokens Colors
  * 							@presenter Color
  */
+$kio-sem-colors-divide-line: #dfdfdf;
+$kio-sem-colors-divide-line-strong: #a7a7a7;
 $kio-sem-colors-text-default: #666666;
 $kio-sem-colors-text-secondary: #EEEEEE;
 $kio-sem-colors-text-active: #7643BB;
@@ -24,6 +26,7 @@ $kio-sem-colors-on-background: #1A1A1A;
 $kio-sem-colors-surface: #fff;
 $kio-sem-colors-on-surface: #262626;
 $kio-sem-colors-surface-dark: #dfdfdf;
+$kio-sem-colors-on-surface-dark: #a7a7a7;
 $kio-sem-colors-success: #2AAD27;
 $kio-sem-colors-on-success: #ffffff;
 $kio-sem-colors-success-container: #BEEBBD;
@@ -135,6 +138,8 @@ $kio-font-sizes-xl: 24px;
 $kio-font-sizes-l: 18px;
 $kio-font-sizes-xxl: 32px;
 $kio-box-shadow-default: 5px 5px 5px 3px #EEEEEE, inset 4px 4px 5px 6px #00000033;
+$kio-comp-button-size-small: 26px;
+$kio-comp-button-size-default: 40px;
 $kio-comp-button-cta-background: #7643BB;
 $kio-comp-button-cta-text: #ffffff;
 $kio-comp-button-cta-hover: #59328C;
@@ -142,14 +147,17 @@ $kio-comp-button-cta-disabled: #a7a7a7;
 $kio-comp-button-tonal-background: #F3EAFF;
 $kio-comp-button-tonal-text: #7643BB;
 $kio-comp-button-tonal-hover: #DCD0EE;
+$kio-comp-button-tonal-disabled: #ffffff;
 $kio-comp-button-tonal-border: 1px solid #7643BB;
 $kio-comp-button-outline-background: rgba(0,0,0,0);
 $kio-comp-button-outline-text: #7643BB;
 $kio-comp-button-outline-hover: #59328C;
+$kio-comp-button-outline-disabled: #a7a7a7;
 $kio-comp-button-outline-border: 1px solid #7643BB;
 $kio-comp-button-text-background: rgba(0,0,0,0);
 $kio-comp-button-text-text: #7643BB;
 $kio-comp-button-text-hover: #faf5ff;
+$kio-comp-button-text-disabled: #a7a7a7;
 $kio-comp-button-border-radius: 4px;
 $kio-comp-button-border-width: 2px;
 $kio-comp-card-border-radius: 8px;

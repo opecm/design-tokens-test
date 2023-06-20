@@ -1,4 +1,6 @@
 :root {
+  --kiona-sem-colors-divide-line: #dfdfdf;
+  --kiona-sem-colors-divide-line-strong: #a7a7a7;
   --kiona-sem-colors-text-default: #666666;
   --kiona-sem-colors-text-secondary: #EEEEEE;
   --kiona-sem-colors-text-active: #7643BB;
@@ -21,6 +23,7 @@
   --kiona-sem-colors-surface: #fff;
   --kiona-sem-colors-on-surface: #262626;
   --kiona-sem-colors-surface-dark: #dfdfdf;
+  --kiona-sem-colors-on-surface-dark: #a7a7a7;
   --kiona-sem-colors-success: #2AAD27;
   --kiona-sem-colors-on-success: #ffffff;
   --kiona-sem-colors-success-container: #BEEBBD;
@@ -132,6 +135,8 @@
   --kiona-font-sizes-l: 18px;
   --kiona-font-sizes-xxl: 32px;
   --kiona-box-shadow-default: 5px 5px 5px 3px #EEEEEE, inset 4px 4px 5px 6px #00000033;
+  --kiona-comp-button-size-small: 26px;
+  --kiona-comp-button-size-default: 40px;
   --kiona-comp-button-cta-background: #7643BB;
   --kiona-comp-button-cta-text: #ffffff;
   --kiona-comp-button-cta-hover: #59328C;
@@ -139,14 +144,17 @@
   --kiona-comp-button-tonal-background: #F3EAFF;
   --kiona-comp-button-tonal-text: #7643BB;
   --kiona-comp-button-tonal-hover: #DCD0EE;
+  --kiona-comp-button-tonal-disabled: #ffffff;
   --kiona-comp-button-tonal-border: 1px solid #7643BB;
   --kiona-comp-button-outline-background: rgba(0,0,0,0);
   --kiona-comp-button-outline-text: #7643BB;
   --kiona-comp-button-outline-hover: #59328C;
+  --kiona-comp-button-outline-disabled: #a7a7a7;
   --kiona-comp-button-outline-border: 1px solid #7643BB;
   --kiona-comp-button-text-background: rgba(0,0,0,0);
   --kiona-comp-button-text-text: #7643BB;
   --kiona-comp-button-text-hover: #faf5ff;
+  --kiona-comp-button-text-disabled: #a7a7a7;
   --kiona-comp-button-border-radius: 4px;
   --kiona-comp-button-border-width: 2px;
   --kiona-comp-card-border-radius: 8px;
