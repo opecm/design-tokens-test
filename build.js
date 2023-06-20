@@ -28,7 +28,7 @@ async function run() {
 			.map(([tokenset]) => `./tokens/${tokenset}.json`),
 		platforms: {
 			css: {
-				prefix: "kiona",
+				prefix: "kio",
 				options: {
 					"showFileHeader": false,
 					"outputReferences": false
