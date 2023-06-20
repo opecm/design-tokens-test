@@ -114,7 +114,7 @@
         "type": "color"
       },
       "error": {
-        "value": "{palette.error.50}",
+        "value": "{palette.error.100}",
         "type": "color"
       },
       "on-error": {
