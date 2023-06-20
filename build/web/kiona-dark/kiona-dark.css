@@ -32,14 +32,15 @@
   --kio-dimension-xl: 64px;
   --kio-spacing-xs: 4px;
   --kio-spacing-sm: 8px;
+  --kio-spacing-m: 12px;
   --kio-spacing-md: 16px;
+  --kio-spacing-l: 24px;
   --kio-spacing-lg: 32px;
   --kio-spacing-xl: 64px;
   --kio-spacing-multi-value: 8px 64px; /* You can have multiple values in a single spacing token. Read more on these: https://docs.tokens.studio/available-tokens/spacing-tokens#multi-value-spacing-tokens */
   --kio-border-radius-sm: 4px;
   --kio-border-radius-lg: 8px;
   --kio-border-radius-xl: 16px;
-  --kio-border-radius-multi-value: 4px 8px; /* You can have multiple values in a single radius token. Read more on these: https://docs.tokens.studio/available-tokens/border-radius-tokens#single--multiple-values */
   --kio-palette-black: #000000;
   --kio-palette-white: #ffffff;
   --kio-palette-primary-0: #fff;
@@ -107,18 +108,12 @@
   --kio-font-weights-heading-bold: 700;
   --kio-font-weights-body-regular: 400;
   --kio-font-weights-body-bold: 700;
-  --kio-font-sizes-h1: 48.829px;
-  --kio-font-sizes-h2: 39.063px;
-  --kio-font-sizes-h3: 31.25px;
-  --kio-font-sizes-h4: 25px;
-  --kio-font-sizes-h5: 20px;
-  --kio-font-sizes-h6: 16px;
   --kio-font-sizes-body: 16px;
-  --kio-font-sizes-xs: 12px;
-  --kio-font-sizes-sm: 13.6px;
-  --kio-font-sizes-ml: 16px;
+  --kio-font-sizes-xs: 10px;
+  --kio-font-sizes-s: 12px;
+  --kio-font-sizes-m: 14px;
+  --kio-font-sizes-l: 16px;
   --kio-font-sizes-xl: 24px;
-  --kio-font-sizes-l: 18px;
   --kio-font-sizes-xxl: 32px;
   --kio-box-shadow-default: 5px 5px 5px 3px #EEEEEE, inset 4px 4px 5px 6px #00000033;
   --kio-sem-colors-divide-line: #a7a7a7;
@@ -149,7 +144,7 @@
   --kio-sem-colors-on-success: #ffffff;
   --kio-sem-colors-success-container: #BEEBBD;
   --kio-sem-colors-on-success-container: #0D620A;
-  --kio-sem-colors-error: #FF8D8D;
+  --kio-sem-colors-error: #EC0F0F;
   --kio-sem-colors-on-error: #ffffff;
   --kio-sem-colors-error-container: #FF8D8D;
   --kio-sem-colors-on-error-container: #fff;
@@ -157,5 +152,5 @@
   --kio-sem-default-active: 1px solid #EEEEEE;
   --kio-sem-default-disabled: 1px solid #a7a7a7;
   --kio-sem-default-hovered: 1px solid #EEEEEE;
-  --kio-sem-error: 1px solid #FF8D8D;
+  --kio-sem-error: 1px solid #EC0F0F;
 }
