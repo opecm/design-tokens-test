@@ -312,12 +312,8 @@
     }
   },
   "fontFamilies": {
-    "heading": {
-      "value": "Inter",
-      "type": "fontFamilies"
-    },
     "body": {
-      "value": "Roboto",
+      "value": "Arial",
       "type": "fontFamilies"
     }
   },
