@@ -16,10 +16,6 @@ StyleDictionary.registerFormat({
 	}
 });
 
-registerTransforms(StyleDictionary, {
-	excludeParentKeys: false,
-});
-
 StyleDictionary.registerFormat({
 	name: 'json/docs-object',
 	formatter: function(dictionary, config) {
@@ -30,6 +26,11 @@ StyleDictionary.registerFormat({
 		return JSON.stringify(obj, null, 2)
 	}
 });
+
+registerTransforms(StyleDictionary, {
+	excludeParentKeys: false,
+});
+
 
 async function run() {
 	const $themes = JSON.parse(await promises.readFile('./tokens/$themes.json'));
