@@ -6,8 +6,7 @@
     "selectedTokenSets": {
       "kiona-reference-tokens": "source",
       "kiona-component-tokens-light": "enabled",
-      "kiona-semantic-tokens": "enabled",
-      "kiona-components-tokens-dark": "disabled"
+      "kiona-semantic-tokens-light": "enabled"
     }
   },
   {
@@ -17,7 +16,8 @@
     "selectedTokenSets": {
       "kiona-reference-tokens": "source",
       "kiona-semantic-tokens-dark": "source",
-      "kiona-components-tokens-dark": "enabled"
+      "kiona-components-tokens-dark": "enabled",
+      "kiona-semantic-tokens-light": "disabled"
     }
   }
 ]
