@@ -1,6 +1,6 @@
 {
   "name": "@0pecm/token-test",
-  "version": "1.2.13",
+  "version": "1.2.14",
   "description": "in progress",
   "main": "build.js",
   "scripts": {
@@ -24,6 +24,7 @@
     "style-dictionary": "^3.1.1"
   },
   "dependencies": {
-    "@tokens-studio/sd-transforms": "^0.9.2"
+    "@tokens-studio/sd-transforms": "^0.9.2",
+    "lodash.setwith": "^4.3.2"
   }
 }

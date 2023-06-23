@@ -1,9 +1,9 @@
 {
   "tokenSetOrder": [
     "kiona-reference-tokens",
-    "kiona-semantic-tokens",
+    "kiona-semantic-tokens-light",
     "kiona-component-tokens-light",
     "kiona-semantic-tokens-dark",
-    "components-tokens-dark"
+    "kiona-components-tokens-dark"
   ]
 }

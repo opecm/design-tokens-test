@@ -6,8 +6,7 @@
     "selectedTokenSets": {
       "kiona-reference-tokens": "source",
       "kiona-component-tokens-light": "enabled",
-      "kiona-semantic-tokens": "enabled",
-      "kiona-semantic-tokens-dark": "disabled"
+      "kiona-semantic-tokens-light": "enabled"
     }
   },
   {
@@ -15,10 +14,9 @@
     "name": "kiona-dark",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "components-tokens-dark": "enabled",
       "kiona-reference-tokens": "source",
-      "kiona-semantic-tokens": "disabled",
-      "kiona-semantic-tokens-dark": "source"
+      "kiona-semantic-tokens-dark": "source",
+      "kiona-components-tokens-dark": "enabled"
     }
   }
 ]
