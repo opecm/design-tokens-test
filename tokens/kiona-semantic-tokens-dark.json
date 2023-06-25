@@ -17,6 +17,10 @@
         "value": "{palette.tetriary.100}",
         "type": "color"
       },
+      "text-error": {
+        "value": "{palette.error.50}",
+        "type": "color"
+      },
       "text-active": {
         "value": "{palette.primary.50}",
         "type": "color"
@@ -133,7 +137,7 @@
     "border": {
       "default": {
         "value": {
-          "color": "{sem.color.primary}",
+          "color": "{palette.tetriary.150}",
           "width": "1",
           "style": "solid"
         },
@@ -165,7 +169,7 @@
       },
       "error": {
         "value": {
-          "color": "{sem.color.error}",
+          "color": "{palette.error.50}",
           "width": "1",
           "style": "solid"
         },

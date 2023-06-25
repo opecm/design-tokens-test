@@ -17,6 +17,10 @@
         "value": "{palette.tetriary.100}",
         "type": "color"
       },
+      "text-error": {
+        "value": "{palette.error.100}",
+        "type": "color"
+      },
       "text-active": {
         "value": "{palette.primary.100}",
         "type": "color"
