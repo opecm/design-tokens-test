@@ -13,11 +13,11 @@
       },
       "cta": {
         "background": {
-          "value": "{sem.colors.primary}",
+          "value": "{sem.color.primary}",
           "type": "color"
         },
         "text": {
-          "value": "{sem.colors.on-primary}",
+          "value": "{sem.color.on-primary}",
           "type": "color"
         },
         "hover": {
@@ -35,7 +35,7 @@
           "type": "color"
         },
         "text": {
-          "value": "{sem.colors.text-default}",
+          "value": "{sem.color.text-default}",
           "type": "color"
         },
         "hover": {
@@ -61,7 +61,7 @@
           "type": "color"
         },
         "text": {
-          "value": "{sem.colors.text-default}",
+          "value": "{sem.color.text-default}",
           "type": "color"
         },
         "hover": {
@@ -87,7 +87,7 @@
           "type": "color"
         },
         "text": {
-          "value": "{sem.colors.text-default}",
+          "value": "{sem.color.text-default}",
           "type": "color"
         },
         "hover": {
@@ -102,10 +102,6 @@
       "borderRadius": {
         "value": "{borderRadius.sm}",
         "type": "borderRadius"
-      },
-      "borderWidth": {
-        "value": "{dimension.scale}",
-        "type": "borderWidth"
       }
     },
     "card": {
@@ -118,7 +114,7 @@
         "type": "color"
       },
       "padding": {
-        "value": "{dimension.md}",
+        "value": "{spacing.md}",
         "type": "dimension"
       }
     }

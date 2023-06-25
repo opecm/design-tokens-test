@@ -1,6 +1,6 @@
 {
   "sem": {
-    "colors": {
+    "color": {
       "divide-line": {
         "value": "{palette.tetriary.125}",
         "type": "color"
@@ -145,7 +145,7 @@
       },
       "default-active": {
         "value": {
-          "color": "{sem.colors.primary}",
+          "color": "{sem.color.primary}",
           "width": "1",
           "style": "solid"
         },
@@ -153,7 +153,7 @@
       },
       "default-disabled": {
         "value": {
-          "color": "{sem.colors.primary-disabled}",
+          "color": "{sem.color.primary-disabled}",
           "width": "1",
           "style": "solid"
         },
@@ -169,7 +169,7 @@
       },
       "error": {
         "value": {
-          "color": "{sem.colors.error}",
+          "color": "{sem.color.error}",
           "width": "1",
           "style": "solid"
         },
