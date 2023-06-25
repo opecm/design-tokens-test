@@ -13,11 +13,11 @@
       },
       "cta": {
         "background": {
-          "value": "{sem.colors.primary}",
+          "value": "{sem.color.primary}",
           "type": "color"
         },
         "text": {
-          "value": "{sem.colors.on-primary}",
+          "value": "{sem.color.on-primary}",
           "type": "color"
         },
         "hover": {
@@ -35,7 +35,7 @@
           "type": "color"
         },
         "text": {
-          "value": "{sem.colors.primary}",
+          "value": "{sem.color.primary}",
           "type": "color"
         },
         "hover": {
@@ -48,7 +48,7 @@
         },
         "border": {
           "value": {
-            "color": "{sem.colors.primary}",
+            "color": "{sem.color.primary}",
             "width": "1",
             "style": "solid"
           },
@@ -61,7 +61,7 @@
           "type": "color"
         },
         "text": {
-          "value": "{sem.colors.primary}",
+          "value": "{sem.color.primary}",
           "type": "color"
         },
         "hover": {
@@ -74,7 +74,7 @@
         },
         "border": {
           "value": {
-            "color": "{sem.colors.primary}",
+            "color": "{sem.color.primary}",
             "width": "1",
             "style": "solid"
           },
@@ -87,7 +87,7 @@
           "type": "color"
         },
         "text": {
-          "value": "{sem.colors.primary}",
+          "value": "{sem.color.primary}",
           "type": "color"
         },
         "hover": {
@@ -102,10 +102,6 @@
       "borderRadius": {
         "value": "{borderRadius.sm}",
         "type": "borderRadius"
-      },
-      "borderWidth": {
-        "value": "{dimension.scale}",
-        "type": "borderWidth"
       }
     },
     "card": {
@@ -114,11 +110,11 @@
         "type": "borderRadius"
       },
       "background": {
-        "value": "{sem.colors.surface}",
+        "value": "{sem.color.surface}",
         "type": "color"
       },
       "padding": {
-        "value": "{dimension.md}",
+        "value": "{spacing.md}",
         "type": "dimension"
       }
     }

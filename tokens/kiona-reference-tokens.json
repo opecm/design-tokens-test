@@ -1,37 +1,11 @@
 {
-  "dimension": {
-    "scale": {
-      "value": "2",
-      "type": "dimension"
-    },
-    "xs": {
-      "value": "4",
-      "type": "dimension"
-    },
-    "sm": {
-      "value": "{dimension.xs} * {dimension.scale}",
-      "type": "dimension"
-    },
-    "md": {
-      "value": "{dimension.sm} * {dimension.scale}",
-      "type": "dimension"
-    },
-    "lg": {
-      "value": "{dimension.md} * {dimension.scale}",
-      "type": "dimension"
-    },
-    "xl": {
-      "value": "{dimension.lg} * {dimension.scale}",
-      "type": "dimension"
-    }
-  },
   "spacing": {
     "xs": {
-      "value": "{dimension.xs}",
+      "value": "4",
       "type": "spacing"
     },
     "sm": {
-      "value": "{dimension.sm}",
+      "value": "8",
       "type": "spacing"
     },
     "m": {
@@ -39,7 +13,7 @@
       "type": "spacing"
     },
     "md": {
-      "value": "{dimension.md}",
+      "value": "16",
       "type": "spacing"
     },
     "l": {
@@ -47,15 +21,15 @@
       "type": "spacing"
     },
     "lg": {
-      "value": "{dimension.lg}",
+      "value": "32",
       "type": "spacing"
     },
     "xl": {
-      "value": "{dimension.xl}",
+      "value": "64",
       "type": "spacing"
     },
     "multi-value": {
-      "value": "{dimension.sm} {dimension.xl}",
+      "value": "24 12",
       "type": "spacing",
       "description": "You can have multiple values in a single spacing token. Read more on these: https://docs.tokens.studio/available-tokens/spacing-tokens#multi-value-spacing-tokens"
     }
