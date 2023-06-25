@@ -512,6 +512,10 @@
         "value": "#EEEEEE",
         "type": "color"
       },
+      "text-error": {
+        "value": "#EC0F0F",
+        "type": "color"
+      },
       "text-active": {
         "value": "#7643BB",
         "type": "color"

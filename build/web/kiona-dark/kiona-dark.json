@@ -400,6 +400,10 @@
         "value": "#EEEEEE",
         "type": "color"
       },
+      "text-error": {
+        "value": "#FF8D8D",
+        "type": "color"
+      },
       "text-active": {
         "value": "#BBA1DD",
         "type": "color"
@@ -515,7 +519,7 @@
     },
     "border": {
       "default": {
-        "value": "1px solid #7643BB",
+        "value": "1px solid #a7a7a7",
         "type": "border"
       },
       "default-active": {
@@ -531,7 +535,7 @@
         "type": "border"
       },
       "error": {
-        "value": "1px solid #EC0F0F",
+        "value": "1px solid #FF8D8D",
         "type": "border"
       }
     }
