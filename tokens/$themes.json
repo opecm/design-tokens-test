@@ -6,7 +6,8 @@
     "selectedTokenSets": {
       "kiona-reference-tokens": "source",
       "kiona-component-tokens-light": "enabled",
-      "kiona-semantic-tokens-light": "enabled"
+      "kiona-semantic-tokens-light": "enabled",
+      "brand-1-ref-tokens": "disabled"
     }
   },
   {
@@ -16,7 +17,19 @@
     "selectedTokenSets": {
       "kiona-reference-tokens": "source",
       "kiona-semantic-tokens-dark": "source",
-      "kiona-components-tokens-dark": "enabled"
+      "kiona-components-tokens-dark": "enabled",
+      "brand-1-ref-tokens": "disabled"
+    }
+  },
+  {
+    "id": "0873b3c58df32ef619542e072efcf7d280eaa338",
+    "name": "brand-1-light",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "kiona-reference-tokens": "source",
+      "kiona-component-tokens-light": "enabled",
+      "brand-1-ref-tokens": "source",
+      "kiona-semantic-tokens-light": "enabled"
     }
   }
 ]
