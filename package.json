@@ -1,6 +1,6 @@
 {
   "name": "@0pecm/token-test",
-  "version": "1.2.18",
+  "version": "1.2.19",
   "description": "in progress",
   "main": "build.js",
   "scripts": {
