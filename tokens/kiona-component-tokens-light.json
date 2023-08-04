@@ -53,14 +53,6 @@
         "disabled": {
           "value": "{color.ref.palette.white}",
           "type": "color"
-        },
-        "border": {
-          "value": {
-            "color": "{color.sem.primary}",
-            "width": "1",
-            "style": "solid"
-          },
-          "type": "border"
         }
       },
       "outline": {
@@ -79,14 +71,6 @@
         "disabled": {
           "value": "{color.ref.palette.tetriary.150}",
           "type": "color"
-        },
-        "border": {
-          "value": {
-            "color": "{color.sem.primary}",
-            "width": "1",
-            "style": "solid"
-          },
-          "type": "border"
         }
       },
       "text": {
@@ -123,6 +107,24 @@
     "card": {
       "value": "{borderRadius.ref.lg}",
       "type": "borderRadius"
+    }
+  },
+  "border": {
+    "button-outline": {
+      "value": {
+        "color": "{color.sem.primary}",
+        "width": "1",
+        "style": "solid"
+      },
+      "type": "border"
+    },
+    "button-tonal": {
+      "value": {
+        "color": "{color.sem.primary}",
+        "width": "1",
+        "style": "solid"
+      },
+      "type": "border"
     }
   }
 }
