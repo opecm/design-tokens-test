@@ -52,14 +52,6 @@
       "disabled": {
         "value": "rgba(0,0,0,0)",
         "type": "color"
-      },
-      "border": {
-        "value": {
-          "color": "{color.ref.palette.secondary.50}",
-          "width": "1",
-          "style": "solid"
-        },
-        "type": "border"
       }
     },
     "button-outline": {
@@ -78,14 +70,6 @@
       "disabled": {
         "value": "rgba(0,0,0,0)",
         "type": "color"
-      },
-      "border": {
-        "value": {
-          "color": "{color.ref.palette.tetriary.125}",
-          "width": "1",
-          "style": "solid"
-        },
-        "type": "border"
       }
     },
     "button-text": {
@@ -115,14 +99,30 @@
   },
   "borderRadius": {
     "card": {
-      "borderRadius": {
-        "value": "{borderRadius.ref.lg}",
-        "type": "borderRadius"
-      }
+      "value": "{borderRadius.ref.lg}",
+      "type": "borderRadius"
     },
     "button": {
       "value": "{borderRadius.ref.sm}",
       "type": "borderRadius"
+    }
+  },
+  "border": {
+    "button-outline": {
+      "value": {
+        "color": "{color.ref.palette.tetriary.125}",
+        "width": "1",
+        "style": "solid"
+      },
+      "type": "border"
+    },
+    "button-tonal": {
+      "value": {
+        "color": "{color.ref.palette.secondary.50}",
+        "width": "1",
+        "style": "solid"
+      },
+      "type": "border"
     }
   }
 }
