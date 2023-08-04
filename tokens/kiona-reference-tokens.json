@@ -373,27 +373,27 @@
         "type": "fontSizes"
       },
       "xs": {
-        "value": "{fontSizes.body} * 0.625",
+        "value": "{fontSizes.ref.body} * 0.625",
         "type": "fontSizes"
       },
       "s": {
-        "value": "{fontSizes.body} * 0.75",
+        "value": "{fontSizes.ref.body} * 0.75",
         "type": "fontSizes"
       },
       "m": {
-        "value": "{fontSizes.body} * 0.875",
+        "value": "{fontSizes.ref.body} * 0.875",
         "type": "fontSizes"
       },
       "l": {
-        "value": "{fontSizes.body} * 1",
+        "value": "{fontSizes.ref.body} * 1",
         "type": "fontSizes"
       },
       "xl": {
-        "value": "{fontSizes.body} * 1.5",
+        "value": "{fontSizes.ref.body} * 1.5",
         "type": "fontSizes"
       },
       "xxl": {
-        "value": "{fontSizes.body} * 2",
+        "value": "{fontSizes.ref.body} * 2",
         "type": "fontSizes"
       }
     }
